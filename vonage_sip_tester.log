@@ -1,0 +1,338 @@
+[2026-08-17T10:07:28.734Z] ============================================================
+[2026-08-17T10:07:28.735Z]   Vonage SIP Trunk Inbound Call Tester
+[2026-08-17T10:07:28.744Z] ============================================================
+[2026-08-17T10:07:28.758Z]   Listening on   : UDP 0.0.0.0:5060
+[2026-08-17T10:07:28.774Z]   Response code  : 603 Decline
+[2026-08-17T10:07:28.785Z]   Log file       : /Users/warodriguez/Documents/VONAGE/SIP-SERVER/vonage_sip_tester.log
+[2026-08-17T10:07:28.790Z]   Press Ctrl+C to stop
+[2026-08-17T10:07:28.793Z] ============================================================
+[2026-08-17T10:07:28.795Z] 
+[2026-08-17T10:27:40.683Z] 
+[2026-08-17T10:27:40.687Z] ============================================================
+[2026-08-17T10:27:40.698Z]   Test session ended
+[2026-08-17T10:27:40.703Z]   Total INVITEs received : 0
+[2026-08-17T10:27:40.708Z]   Retries detected       : 0
+[2026-08-17T10:27:40.714Z]   ✓ No retries detected for this response code
+[2026-08-17T10:27:40.720Z]   Full log saved to      : /Users/warodriguez/Documents/VONAGE/SIP-SERVER/vonage_sip_tester.log
+[2026-08-17T10:27:40.725Z] ============================================================
+[2026-08-17T10:28:02.487Z] ============================================================
+[2026-08-17T10:28:02.488Z]   Vonage SIP Trunk Inbound Call Tester
+[2026-08-17T10:28:02.495Z] ============================================================
+[2026-08-17T10:28:02.500Z]   Transport      : TCP
+[2026-08-17T10:28:02.505Z]   Listening on   : 0.0.0.0:5060
+[2026-08-17T10:28:02.510Z]   Response code  : 404 Not Found
+[2026-08-17T10:28:02.517Z]   Log file       : /Users/warodriguez/Documents/VONAGE/SIP-SERVER/vonage_sip_tester.log
+[2026-08-17T10:28:02.522Z]   Press Ctrl+C to stop
+[2026-08-17T10:28:02.527Z] ============================================================
+[2026-08-17T10:28:02.532Z] 
+[2026-08-19T06:16:53.017Z] ============================================================
+[2026-08-19T06:16:53.022Z]   Vonage SIP Trunk Inbound Call Tester
+[2026-08-19T06:16:53.025Z] ============================================================
+[2026-08-19T06:16:53.028Z]   Transport      : TCP
+[2026-08-19T06:16:53.032Z]   Listening on   : 0.0.0.0:5060
+[2026-08-19T06:16:53.036Z]   Response code  : 404 Not Found
+[2026-08-19T06:16:53.040Z]   Log file       : /Users/warodriguez/Documents/VONAGE/SIP-SERVER/vonage_sip_tester.log
+[2026-08-19T06:16:53.042Z]   Press Ctrl+C to stop
+[2026-08-19T06:16:53.045Z] ============================================================
+[2026-08-19T06:16:53.049Z] 
+[2026-08-19T07:08:57.852Z] >>> INVITE #1 from 127.0.0.1:57542
+[2026-08-19T07:08:57.855Z]     Call-ID  : 61c707f90cde58eb308aa76a25c53330@sip.nexmo.com
+[2026-08-19T07:08:57.866Z]     From     : <sip:447572784537@sip.nexmo.com>;tag=as2a46fa1d
+[2026-08-19T07:08:57.881Z]     To       : <sip:351923249700@ztjsk-2a00-23c5-e3f0-2501-c42-b3e2-8d7c-d43c.run.pinggy-free.link:38107;transport=tcp>
+[2026-08-19T07:08:57.887Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #1
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ztjsk-2a00-23c5-e3f0-2501-c42-b3e2-8d7c-d43c.run.pinggy-free.link:38107;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.1:5060;transport=tcp;r2=on;lr=on;ftag=as2a46fa1d;nat=yes>
+Record-Route: <sip:216.147.0.1;r2=on;lr=on;ftag=as2a46fa1d;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.1:5060;branch=z9hG4bKf4a5.141743568975aa5f35fbb808e4982062.0
+Via: SIP/2.0/UDP 10.228.146.109:5060;received=10.228.146.109;branch=z9hG4bK598dc44a;rport=5060
+Max-Forwards: 69
+From: <sip:447572784537@sip.nexmo.com>;tag=as2a46fa1d
+To: <sip:351923249700@ztjsk-2a00-23c5-e3f0-2501-c42-b3e2-8d7c-d43c.run.pinggy-free.link:38107;transport=tcp>
+Contact: <sip:447572784537@10.228.146.109:5060;alias=10.228.146.109~5060~1>
+Call-ID: 61c707f90cde58eb308aa76a25c53330@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-146109 prd
+Date: Wed, 19 Aug 2026 07:08:57 GMT
+P-Asserted-Identity: "447572784537" <sip:447572784537@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 368
+P-Nexmo-UUID: 438a6ff0d79bd01c71b501ae33ddb8fc
+
+v=0
+o=Nexmo 569224387 569224387 IN IP4 10.228.146.109
+s=Nexmo
+c=IN IP4 216.147.0.217
+t=0 0
+m=audio 17660 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-19T07:08:57.902Z] <<< SENT 404 Not Found → 127.0.0.1:57542
+[2026-08-19T07:08:57.911Z] 
+[2026-08-19T07:08:57.937Z]     ACK  Call-ID=61c707f90cde58eb308aa76a25c53330@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-19T07:08:57.945Z] 
+[2026-08-19T07:09:06.677Z] >>> INVITE #2 from 127.0.0.1:57545
+[2026-08-19T07:09:06.677Z]     Call-ID  : 18a8e72d44804b1f36c6d5025fb092bf@sip.nexmo.com
+[2026-08-19T07:09:06.685Z]     From     : <sip:447572784537@sip.nexmo.com>;tag=as2fc00bde
+[2026-08-19T07:09:06.699Z]     To       : <sip:351923249700@ztjsk-2a00-23c5-e3f0-2501-c42-b3e2-8d7c-d43c.run.pinggy-free.link:38107;transport=tcp>
+[2026-08-19T07:09:06.707Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #2
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ztjsk-2a00-23c5-e3f0-2501-c42-b3e2-8d7c-d43c.run.pinggy-free.link:38107;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.2:5060;transport=tcp;r2=on;lr=on;ftag=as2fc00bde;nat=yes>
+Record-Route: <sip:216.147.0.2;r2=on;lr=on;ftag=as2fc00bde;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bKee25.82b0055d282751584bbb5634290fedf8.0
+Via: SIP/2.0/UDP 10.228.145.218:5060;received=10.228.145.218;branch=z9hG4bK0bedff0f;rport=5060
+Max-Forwards: 69
+From: <sip:447572784537@sip.nexmo.com>;tag=as2fc00bde
+To: <sip:351923249700@ztjsk-2a00-23c5-e3f0-2501-c42-b3e2-8d7c-d43c.run.pinggy-free.link:38107;transport=tcp>
+Contact: <sip:447572784537@10.228.145.218:5060;alias=10.228.145.218~5060~1>
+Call-ID: 18a8e72d44804b1f36c6d5025fb092bf@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-145218 prd
+Date: Wed, 19 Aug 2026 07:09:06 GMT
+P-Asserted-Identity: "447572784537" <sip:447572784537@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 366
+P-Nexmo-UUID: 9db0f64089de3816300b12b579ed619e
+
+v=0
+o=Nexmo 52799516 52799516 IN IP4 10.228.145.218
+s=Nexmo
+c=IN IP4 216.147.0.210
+t=0 0
+m=audio 12284 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-19T07:09:06.721Z] <<< SENT 404 Not Found → 127.0.0.1:57545
+[2026-08-19T07:09:06.726Z] 
+[2026-08-19T07:09:06.757Z]     ACK  Call-ID=18a8e72d44804b1f36c6d5025fb092bf@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-19T07:09:06.762Z] 
+[2026-08-19T07:10:45.555Z] 
+[2026-08-19T07:10:45.557Z] ============================================================
+[2026-08-19T07:10:45.564Z]   Test session ended
+[2026-08-19T07:10:45.575Z]   Total INVITEs received : 2
+[2026-08-19T07:10:45.580Z]   Retries detected       : 0
+[2026-08-19T07:10:45.586Z]   ✓  No retries — expected behaviour for this response code
+[2026-08-19T07:10:45.592Z]   Full log               : /Users/warodriguez/Documents/VONAGE/SIP-SERVER/vonage_sip_tester.log
+[2026-08-19T07:10:45.598Z] ============================================================
+[2026-08-19T07:10:47.468Z] ============================================================
+[2026-08-19T07:10:47.468Z]   Vonage SIP Trunk Inbound Call Tester
+[2026-08-19T07:10:47.475Z] ============================================================
+[2026-08-19T07:10:47.481Z]   Transport      : TCP
+[2026-08-19T07:10:47.487Z]   Listening on   : 0.0.0.0:5060
+[2026-08-19T07:10:47.493Z]   Response code  : 603 Decline
+[2026-08-19T07:10:47.499Z]   Log file       : /Users/warodriguez/Documents/VONAGE/SIP-SERVER/vonage_sip_tester.log
+[2026-08-19T07:10:47.503Z]   Press Ctrl+C to stop
+[2026-08-19T07:10:47.509Z] ============================================================
+[2026-08-19T07:10:47.511Z] 
+[2026-08-19T07:11:10.615Z] >>> INVITE #1 from 127.0.0.1:57581
+[2026-08-19T07:11:10.618Z]     Call-ID  : 0e8ba5c56313df993324053108a1a935@sip.nexmo.com
+[2026-08-19T07:11:10.634Z]     From     : <sip:447572784537@sip.nexmo.com>;tag=as45d790a4
+[2026-08-19T07:11:10.655Z]     To       : <sip:351923249700@ztjsk-2a00-23c5-e3f0-2501-c42-b3e2-8d7c-d43c.run.pinggy-free.link:38107;transport=tcp>
+[2026-08-19T07:11:10.675Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #1
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ztjsk-2a00-23c5-e3f0-2501-c42-b3e2-8d7c-d43c.run.pinggy-free.link:38107;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.2:5060;transport=tcp;r2=on;lr=on;ftag=as45d790a4;nat=yes>
+Record-Route: <sip:216.147.0.2;r2=on;lr=on;ftag=as45d790a4;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bKed95.89c7bc6c19e812932d8e76695d4d683b.0
+Via: SIP/2.0/UDP 10.228.144.226:5060;received=10.228.144.226;branch=z9hG4bK3e20d79a;rport=5060
+Max-Forwards: 69
+From: <sip:447572784537@sip.nexmo.com>;tag=as45d790a4
+To: <sip:351923249700@ztjsk-2a00-23c5-e3f0-2501-c42-b3e2-8d7c-d43c.run.pinggy-free.link:38107;transport=tcp>
+Contact: <sip:447572784537@10.228.144.226:5060;alias=10.228.144.226~5060~1>
+Call-ID: 0e8ba5c56313df993324053108a1a935@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-144226 prd
+Date: Wed, 19 Aug 2026 07:11:10 GMT
+P-Asserted-Identity: "447572784537" <sip:447572784537@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 368
+P-Nexmo-UUID: 89e662ead49318af235b2edf2e40f4a6
+
+v=0
+o=Nexmo 565104363 565104363 IN IP4 10.228.144.226
+s=Nexmo
+c=IN IP4 216.147.0.109
+t=0 0
+m=audio 13852 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-19T07:11:10.687Z] <<< SENT 603 Decline → 127.0.0.1:57581
+[2026-08-19T07:11:10.691Z] 
+[2026-08-19T07:11:10.723Z]     ACK  Call-ID=0e8ba5c56313df993324053108a1a935@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-19T07:11:10.731Z] 
+[2026-08-19T07:11:19.302Z] >>> INVITE #2 from 127.0.0.1:57581
+[2026-08-19T07:11:19.321Z]     Call-ID  : 5b27f43d4ff0eaf82f7260ec38095dd1@sip.nexmo.com
+[2026-08-19T07:11:19.331Z]     From     : <sip:447572784537@sip.nexmo.com>;tag=as335217b8
+[2026-08-19T07:11:19.338Z]     To       : <sip:351923249700@ztjsk-2a00-23c5-e3f0-2501-c42-b3e2-8d7c-d43c.run.pinggy-free.link:38107;transport=tcp>
+[2026-08-19T07:11:19.350Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #2
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ztjsk-2a00-23c5-e3f0-2501-c42-b3e2-8d7c-d43c.run.pinggy-free.link:38107;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.2:5060;transport=tcp;r2=on;lr=on;ftag=as335217b8;nat=yes>
+Record-Route: <sip:216.147.0.2;r2=on;lr=on;ftag=as335217b8;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK8f06.820c23481d37cd108f08120507f6f38e.0
+Via: SIP/2.0/UDP 10.228.144.60:5060;received=10.228.144.60;branch=z9hG4bK63942236;rport=5060
+Max-Forwards: 69
+From: <sip:447572784537@sip.nexmo.com>;tag=as335217b8
+To: <sip:351923249700@ztjsk-2a00-23c5-e3f0-2501-c42-b3e2-8d7c-d43c.run.pinggy-free.link:38107;transport=tcp>
+Contact: <sip:447572784537@10.228.144.60:5060;alias=10.228.144.60~5060~1>
+Call-ID: 5b27f43d4ff0eaf82f7260ec38095dd1@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-14460 prd
+Date: Wed, 19 Aug 2026 07:11:19 GMT
+P-Asserted-Identity: "447572784537" <sip:447572784537@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 368
+P-Nexmo-UUID: f89c90079e1b119b37d7959ea1d63442
+
+v=0
+o=Nexmo 1525332379 1525332379 IN IP4 10.228.144.60
+s=Nexmo
+c=IN IP4 216.147.0.21
+t=0 0
+m=audio 17418 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-19T07:11:19.366Z] <<< SENT 603 Decline → 127.0.0.1:57581
+[2026-08-19T07:11:19.372Z] 
+[2026-08-19T07:11:19.405Z]     ACK  Call-ID=5b27f43d4ff0eaf82f7260ec38095dd1@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-19T07:11:19.409Z] 
+[2026-08-19T07:12:57.028Z] 
+[2026-08-19T07:12:57.029Z] ============================================================
+[2026-08-19T07:12:57.047Z]   Test session ended
+[2026-08-19T07:12:57.055Z]   Total INVITEs received : 2
+[2026-08-19T07:12:57.064Z]   Retries detected       : 0
+[2026-08-19T07:12:57.070Z]   ✓  No retries — expected behaviour for this response code
+[2026-08-19T07:12:57.076Z]   Full log               : /Users/warodriguez/Documents/VONAGE/SIP-SERVER/vonage_sip_tester.log
+[2026-08-19T07:12:57.081Z] ============================================================
+[2026-08-19T07:13:04.750Z] ============================================================
+[2026-08-19T07:13:04.751Z]   Vonage SIP Trunk Inbound Call Tester
+[2026-08-19T07:13:04.763Z] ============================================================
+[2026-08-19T07:13:04.769Z]   Transport      : TCP
+[2026-08-19T07:13:04.774Z]   Listening on   : 0.0.0.0:5060
+[2026-08-19T07:13:04.780Z]   Response code  : 503 Service Unavailable
+[2026-08-19T07:13:04.786Z]   Log file       : /Users/warodriguez/Documents/VONAGE/SIP-SERVER/vonage_sip_tester.log
+[2026-08-19T07:13:04.791Z]   Press Ctrl+C to stop
+[2026-08-19T07:13:04.797Z] ============================================================
+[2026-08-19T07:13:04.802Z] 
+[2026-08-19T07:13:14.818Z] >>> INVITE #1 from 127.0.0.1:57627
+[2026-08-19T07:13:14.821Z]     Call-ID  : 08aad0080b4c99263b1a1e0033d45575@sip.nexmo.com
+[2026-08-19T07:13:14.832Z]     From     : <sip:447572784537@sip.nexmo.com>;tag=as1ae174db
+[2026-08-19T07:13:14.850Z]     To       : <sip:351923249700@ztjsk-2a00-23c5-e3f0-2501-c42-b3e2-8d7c-d43c.run.pinggy-free.link:38107;transport=tcp>
+[2026-08-19T07:13:14.857Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #1
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ztjsk-2a00-23c5-e3f0-2501-c42-b3e2-8d7c-d43c.run.pinggy-free.link:38107;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.2:5060;transport=tcp;r2=on;lr=on;ftag=as1ae174db;nat=yes>
+Record-Route: <sip:216.147.0.2;r2=on;lr=on;ftag=as1ae174db;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bKca17.91aad55e7722673d9de20ee91456d65b.0
+Via: SIP/2.0/UDP 10.228.145.218:5060;received=10.228.145.218;branch=z9hG4bK128b482c;rport=5060
+Max-Forwards: 69
+From: <sip:447572784537@sip.nexmo.com>;tag=as1ae174db
+To: <sip:351923249700@ztjsk-2a00-23c5-e3f0-2501-c42-b3e2-8d7c-d43c.run.pinggy-free.link:38107;transport=tcp>
+Contact: <sip:447572784537@10.228.145.218:5060;alias=10.228.145.218~5060~1>
+Call-ID: 08aad0080b4c99263b1a1e0033d45575@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-145218 prd
+Date: Wed, 19 Aug 2026 07:13:14 GMT
+P-Asserted-Identity: "447572784537" <sip:447572784537@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 368
+P-Nexmo-UUID: d48870ab528a91580ccf5700d7f3d96b
+
+v=0
+o=Nexmo 550880355 550880355 IN IP4 10.228.145.218
+s=Nexmo
+c=IN IP4 216.147.0.210
+t=0 0
+m=audio 27402 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-19T07:13:14.873Z] <<< SENT 503 Service Unavailable → 127.0.0.1:57627
+[2026-08-19T07:13:14.877Z] 
+[2026-08-19T07:13:14.910Z]     ACK  Call-ID=08aad0080b4c99263b1a1e0033d45575@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-19T07:13:14.916Z] 
