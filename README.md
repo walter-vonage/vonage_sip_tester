@@ -4,9 +4,9 @@ https://ericssonab70331551vonagepro-my.sharepoint.com/:w:/r/personal/walter_rodr
 
 In order to run this demo, follow these steps: 
 
-1) Download the Python script from this repository (a log is also included) 
+1) Download the Python script ```vonage_sip_tester_via_headers.py``` from this repository (a log is also included) 
 ```
-https://github.com/walter-vonage/vonage_sip_tester 
+https://github.com/walter-vonage/vonage_sip_tester
 ```
 
 2) If you are testing this in your local Mac, then use Pinggy or similar to get a temporary TCP connection 
@@ -40,13 +40,13 @@ Then you will have to buy a Portugal number to make the test and link to this SI
 5) Stop and restart the terminal with the Python script only for each test, keeping Terminal 2 (Pinggy) running throughout: 
 
 # Test 1: should NOT retry per docs, but customer says it does 
-python3 vonage_sip_tester.py --code 404 
+python3 vonage_sip_tester_via_headers.py --code 404 
  
 # Test 2 - 603 Decline, also a definitive rejection, also reportedly retried 
-python3 vonage_sip_tester.py --code 603 
+python3 vonage_sip_tester_via_headers.py --code 603 
  
 # Test 3 - 503 baseline: this SHOULD trigger failover (expected behaviour) 
-python3 vonage_sip_tester.py --code 503 
+python3 vonage_sip_tester_via_headers.py --code 503 
  
 
 Make one test call to the Portugal number per run. Ctrl+C after ~30 seconds, check the verdict.  
