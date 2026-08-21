@@ -1,0 +1,1996 @@
+[2026-08-21T14:30:03.062Z] >>> INVITE #3 from 127.0.0.1:60744
+[2026-08-21T14:30:03.064Z]     Call-ID  : 7195a1e70dfcb323545b3217190f3cc7@sip.nexmo.com
+[2026-08-21T14:30:03.071Z]     From     : <sip:447441441325@sip.nexmo.com>;tag=as6ece2e1d
+[2026-08-21T14:30:03.080Z]     To       : <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+[2026-08-21T14:30:03.087Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #3
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.2:5060;transport=tcp;r2=on;lr=on;ftag=as6ece2e1d;nat=yes>
+Record-Route: <sip:216.147.0.2;r2=on;lr=on;ftag=as6ece2e1d;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK13b1.ce837133c77a57eec7fa52430900336c.0
+Via: SIP/2.0/UDP 10.228.145.218:5060;received=10.228.145.218;branch=z9hG4bK7c105ce2;rport=5060
+Max-Forwards: 69
+From: <sip:447441441325@sip.nexmo.com>;tag=as6ece2e1d
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+Contact: <sip:447441441325@10.228.145.218:5060;alias=10.228.145.218~5060~1>
+Call-ID: 7195a1e70dfcb323545b3217190f3cc7@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-145218 prd
+Date: Fri, 21 Aug 2026 14:30:02 GMT
+P-Asserted-Identity: "447441441325" <sip:447441441325@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 370
+P-Nexmo-UUID: 92f4e2de9dce841af28500299a9fe80c
+
+v=0
+o=Nexmo 1217692853 1217692853 IN IP4 10.228.145.218
+s=Nexmo
+c=IN IP4 216.147.0.210
+t=0 0
+m=audio 25310 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:03.103Z] <<< SENT 404 Not Found → 127.0.0.1:60744
+[2026-08-21T14:30:03.107Z]     Sent Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK13b1.ce837133c77a57eec7fa52430900336c.0
+[2026-08-21T14:30:03.110Z]     Sent Via: SIP/2.0/UDP 10.228.145.218:5060;received=10.228.145.218;branch=z9hG4bK7c105ce2;rport=5060
+
+──────────────────────────────────────────────────
+RAW RESPONSE #3
+──────────────────────────────────────────────────
+SIP/2.0 404 Not Found
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK13b1.ce837133c77a57eec7fa52430900336c.0
+Via: SIP/2.0/UDP 10.228.145.218:5060;received=10.228.145.218;branch=z9hG4bK7c105ce2;rport=5060
+From: <sip:447441441325@sip.nexmo.com>;tag=as6ece2e1d
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>;tag=10wq4pvvci
+Call-ID: 7195a1e70dfcb323545b3217190f3cc7@sip.nexmo.com
+CSeq: 102 INVITE
+Content-Length: 0
+
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:03.117Z] 
+[2026-08-21T14:30:03.407Z]     ACK  Call-ID=7195a1e70dfcb323545b3217190f3cc7@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-21T14:30:03.408Z] 
+[2026-08-21T14:30:04.561Z] >>> INVITE #4 from 127.0.0.1:60744
+[2026-08-21T14:30:04.561Z]     Call-ID  : 353e9430240ea5dc19823b074250e49d@sip.nexmo.com
+[2026-08-21T14:30:04.564Z]     From     : <sip:447441441325@sip.nexmo.com>;tag=as3cc274d3
+[2026-08-21T14:30:04.566Z]     To       : <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+[2026-08-21T14:30:04.583Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #4
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.2:5060;transport=tcp;r2=on;lr=on;ftag=as3cc274d3;nat=yes>
+Record-Route: <sip:216.147.0.2;r2=on;lr=on;ftag=as3cc274d3;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK2c86.a354a2e6bd6bd2f5c06e3309c0fe8071.0
+Via: SIP/2.0/UDP 10.228.144.60:5060;received=10.228.144.60;branch=z9hG4bK6aecc223;rport=5060
+Max-Forwards: 69
+From: <sip:447441441325@sip.nexmo.com>;tag=as3cc274d3
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+Contact: <sip:447441441325@10.228.144.60:5060;alias=10.228.144.60~5060~1>
+Call-ID: 353e9430240ea5dc19823b074250e49d@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-14460 prd
+Date: Fri, 21 Aug 2026 14:30:04 GMT
+P-Asserted-Identity: "447441441325" <sip:447441441325@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 368
+P-Nexmo-UUID: 43da98c499649e1bcce3d37d34269d30
+
+v=0
+o=Nexmo 2001677228 2001677228 IN IP4 10.228.144.60
+s=Nexmo
+c=IN IP4 216.147.0.21
+t=0 0
+m=audio 26858 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:04.589Z] <<< SENT 404 Not Found → 127.0.0.1:60744
+[2026-08-21T14:30:04.591Z]     Sent Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK2c86.a354a2e6bd6bd2f5c06e3309c0fe8071.0
+[2026-08-21T14:30:04.593Z]     Sent Via: SIP/2.0/UDP 10.228.144.60:5060;received=10.228.144.60;branch=z9hG4bK6aecc223;rport=5060
+
+──────────────────────────────────────────────────
+RAW RESPONSE #4
+──────────────────────────────────────────────────
+SIP/2.0 404 Not Found
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK2c86.a354a2e6bd6bd2f5c06e3309c0fe8071.0
+Via: SIP/2.0/UDP 10.228.144.60:5060;received=10.228.144.60;branch=z9hG4bK6aecc223;rport=5060
+From: <sip:447441441325@sip.nexmo.com>;tag=as3cc274d3
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>;tag=q7l1hqhd5k
+Call-ID: 353e9430240ea5dc19823b074250e49d@sip.nexmo.com
+CSeq: 102 INVITE
+Content-Length: 0
+
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:04.598Z] 
+[2026-08-21T14:30:04.884Z]     ACK  Call-ID=353e9430240ea5dc19823b074250e49d@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-21T14:30:04.885Z] 
+[2026-08-21T14:30:06.554Z] >>> INVITE #5 from 127.0.0.1:60746
+[2026-08-21T14:30:06.555Z]     Call-ID  : 31bd63e217f68a1a1e4245cb573e74dc@sip.nexmo.com
+[2026-08-21T14:30:06.560Z]     From     : <sip:447441441325@sip.nexmo.com>;tag=as20ec7151
+[2026-08-21T14:30:06.564Z]     To       : <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+[2026-08-21T14:30:06.568Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #5
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.1:5060;transport=tcp;r2=on;lr=on;ftag=as20ec7151;nat=yes>
+Record-Route: <sip:216.147.0.1;r2=on;lr=on;ftag=as20ec7151;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.1:5060;branch=z9hG4bKe804.046f4268da7db56c0115412ac5abc85e.0
+Via: SIP/2.0/UDP 10.228.146.109:5060;received=10.228.146.109;branch=z9hG4bK78a06430;rport=5060
+Max-Forwards: 69
+From: <sip:447441441325@sip.nexmo.com>;tag=as20ec7151
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+Contact: <sip:447441441325@10.228.146.109:5060;alias=10.228.146.109~5060~1>
+Call-ID: 31bd63e217f68a1a1e4245cb573e74dc@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-146109 prd
+Date: Fri, 21 Aug 2026 14:30:06 GMT
+P-Asserted-Identity: "447441441325" <sip:447441441325@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 370
+P-Nexmo-UUID: 3607851327c5998913910eb2791200df
+
+v=0
+o=Nexmo 1877223541 1877223541 IN IP4 10.228.146.109
+s=Nexmo
+c=IN IP4 216.147.0.217
+t=0 0
+m=audio 15556 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:06.580Z] <<< SENT 404 Not Found → 127.0.0.1:60746
+[2026-08-21T14:30:06.583Z]     Sent Via: SIP/2.0/TCP 216.147.0.1:5060;branch=z9hG4bKe804.046f4268da7db56c0115412ac5abc85e.0
+[2026-08-21T14:30:06.585Z]     Sent Via: SIP/2.0/UDP 10.228.146.109:5060;received=10.228.146.109;branch=z9hG4bK78a06430;rport=5060
+
+──────────────────────────────────────────────────
+RAW RESPONSE #5
+──────────────────────────────────────────────────
+SIP/2.0 404 Not Found
+Via: SIP/2.0/TCP 216.147.0.1:5060;branch=z9hG4bKe804.046f4268da7db56c0115412ac5abc85e.0
+Via: SIP/2.0/UDP 10.228.146.109:5060;received=10.228.146.109;branch=z9hG4bK78a06430;rport=5060
+From: <sip:447441441325@sip.nexmo.com>;tag=as20ec7151
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>;tag=oa9o8bai86
+Call-ID: 31bd63e217f68a1a1e4245cb573e74dc@sip.nexmo.com
+CSeq: 102 INVITE
+Content-Length: 0
+
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:06.591Z] 
+[2026-08-21T14:30:06.888Z]     ACK  Call-ID=31bd63e217f68a1a1e4245cb573e74dc@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-21T14:30:06.890Z] 
+[2026-08-21T14:30:07.712Z] >>> INVITE #6 from 127.0.0.1:60744
+[2026-08-21T14:30:07.714Z]     Call-ID  : 21ae8a08340e77156bb4266f4d0ea995@sip.nexmo.com
+[2026-08-21T14:30:07.722Z]     From     : <sip:447441441325@sip.nexmo.com>;tag=as059da904
+[2026-08-21T14:30:07.731Z]     To       : <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+[2026-08-21T14:30:07.751Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #6
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.2:5060;transport=tcp;r2=on;lr=on;ftag=as059da904;nat=yes>
+Record-Route: <sip:216.147.0.2;r2=on;lr=on;ftag=as059da904;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK62c2.ad662eb5bd9332d295cb5ab46e19a089.0
+Via: SIP/2.0/UDP 10.228.144.226:5060;received=10.228.144.226;branch=z9hG4bK228cc8f4;rport=5060
+Max-Forwards: 69
+From: <sip:447441441325@sip.nexmo.com>;tag=as059da904
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+Contact: <sip:447441441325@10.228.144.226:5060;alias=10.228.144.226~5060~1>
+Call-ID: 21ae8a08340e77156bb4266f4d0ea995@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-144226 prd
+Date: Fri, 21 Aug 2026 14:30:07 GMT
+P-Asserted-Identity: "447441441325" <sip:447441441325@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 368
+P-Nexmo-UUID: a1aaac8b3f7c5e0500ce9f2c6d2e79b6
+
+v=0
+o=Nexmo 129655565 129655565 IN IP4 10.228.144.226
+s=Nexmo
+c=IN IP4 216.147.0.109
+t=0 0
+m=audio 26410 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:07.770Z] <<< SENT 404 Not Found → 127.0.0.1:60744
+[2026-08-21T14:30:07.776Z]     Sent Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK62c2.ad662eb5bd9332d295cb5ab46e19a089.0
+[2026-08-21T14:30:07.781Z]     Sent Via: SIP/2.0/UDP 10.228.144.226:5060;received=10.228.144.226;branch=z9hG4bK228cc8f4;rport=5060
+
+──────────────────────────────────────────────────
+RAW RESPONSE #6
+──────────────────────────────────────────────────
+SIP/2.0 404 Not Found
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK62c2.ad662eb5bd9332d295cb5ab46e19a089.0
+Via: SIP/2.0/UDP 10.228.144.226:5060;received=10.228.144.226;branch=z9hG4bK228cc8f4;rport=5060
+From: <sip:447441441325@sip.nexmo.com>;tag=as059da904
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>;tag=s9bwxofa5w
+Call-ID: 21ae8a08340e77156bb4266f4d0ea995@sip.nexmo.com
+CSeq: 102 INVITE
+Content-Length: 0
+
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:07.793Z] 
+[2026-08-21T14:30:08.129Z]     ACK  Call-ID=21ae8a08340e77156bb4266f4d0ea995@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-21T14:30:08.137Z] 
+[2026-08-21T14:30:09.084Z] >>> INVITE #7 from 127.0.0.1:60744
+[2026-08-21T14:30:09.095Z]     Call-ID  : 0b98693e196eebcf260f1a2b3e9c1d80@sip.nexmo.com
+[2026-08-21T14:30:09.113Z]     From     : <sip:447441441325@sip.nexmo.com>;tag=as028d2792
+[2026-08-21T14:30:09.131Z]     To       : <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+[2026-08-21T14:30:09.141Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #7
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.2:5060;transport=tcp;r2=on;lr=on;ftag=as028d2792;nat=yes>
+Record-Route: <sip:216.147.0.2;r2=on;lr=on;ftag=as028d2792;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK1ab8.7cd5f12f480fcfd5b09e657c01530575.0
+Via: SIP/2.0/UDP 10.228.145.218:5060;received=10.228.145.218;branch=z9hG4bK6f6c1cc4;rport=5060
+Max-Forwards: 69
+From: <sip:447441441325@sip.nexmo.com>;tag=as028d2792
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+Contact: <sip:447441441325@10.228.145.218:5060;alias=10.228.145.218~5060~1>
+Call-ID: 0b98693e196eebcf260f1a2b3e9c1d80@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-145218 prd
+Date: Fri, 21 Aug 2026 14:30:09 GMT
+P-Asserted-Identity: "447441441325" <sip:447441441325@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 370
+P-Nexmo-UUID: 289af845b69848b4ab2a2f38da5e84eb
+
+v=0
+o=Nexmo 1717946432 1717946432 IN IP4 10.228.145.218
+s=Nexmo
+c=IN IP4 216.147.0.210
+t=0 0
+m=audio 10822 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:09.149Z] <<< SENT 404 Not Found → 127.0.0.1:60744
+[2026-08-21T14:30:09.154Z]     Sent Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK1ab8.7cd5f12f480fcfd5b09e657c01530575.0
+[2026-08-21T14:30:09.158Z]     Sent Via: SIP/2.0/UDP 10.228.145.218:5060;received=10.228.145.218;branch=z9hG4bK6f6c1cc4;rport=5060
+
+──────────────────────────────────────────────────
+RAW RESPONSE #7
+──────────────────────────────────────────────────
+SIP/2.0 404 Not Found
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK1ab8.7cd5f12f480fcfd5b09e657c01530575.0
+Via: SIP/2.0/UDP 10.228.145.218:5060;received=10.228.145.218;branch=z9hG4bK6f6c1cc4;rport=5060
+From: <sip:447441441325@sip.nexmo.com>;tag=as028d2792
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>;tag=wazmayqhkz
+Call-ID: 0b98693e196eebcf260f1a2b3e9c1d80@sip.nexmo.com
+CSeq: 102 INVITE
+Content-Length: 0
+
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:09.166Z] 
+[2026-08-21T14:30:09.461Z]     ACK  Call-ID=0b98693e196eebcf260f1a2b3e9c1d80@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-21T14:30:09.466Z] 
+[2026-08-21T14:30:10.385Z] >>> INVITE #8 from 127.0.0.1:60746
+[2026-08-21T14:30:10.396Z]     Call-ID  : 0a0873876729dbe22feefae7768d9191@sip.nexmo.com
+[2026-08-21T14:30:10.411Z]     From     : <sip:447441441325@sip.nexmo.com>;tag=as4f8f32ef
+[2026-08-21T14:30:10.422Z]     To       : <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+[2026-08-21T14:30:10.431Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #8
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.1:5060;transport=tcp;r2=on;lr=on;ftag=as4f8f32ef;nat=yes>
+Record-Route: <sip:216.147.0.1;r2=on;lr=on;ftag=as4f8f32ef;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.1:5060;branch=z9hG4bK7586.433cfc557dbeea06108b2cdceb281ef6.0
+Via: SIP/2.0/UDP 10.228.146.109:5060;received=10.228.146.109;branch=z9hG4bK6f465790;rport=5060
+Max-Forwards: 69
+From: <sip:447441441325@sip.nexmo.com>;tag=as4f8f32ef
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+Contact: <sip:447441441325@10.228.146.109:5060;alias=10.228.146.109~5060~1>
+Call-ID: 0a0873876729dbe22feefae7768d9191@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-146109 prd
+Date: Fri, 21 Aug 2026 14:30:10 GMT
+P-Asserted-Identity: "447441441325" <sip:447441441325@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 368
+P-Nexmo-UUID: 3bb08f3a53f5c66917700371aaef26ff
+
+v=0
+o=Nexmo 749117280 749117280 IN IP4 10.228.146.109
+s=Nexmo
+c=IN IP4 216.147.0.217
+t=0 0
+m=audio 17232 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:10.445Z] <<< SENT 404 Not Found → 127.0.0.1:60746
+[2026-08-21T14:30:10.451Z]     Sent Via: SIP/2.0/TCP 216.147.0.1:5060;branch=z9hG4bK7586.433cfc557dbeea06108b2cdceb281ef6.0
+[2026-08-21T14:30:10.456Z]     Sent Via: SIP/2.0/UDP 10.228.146.109:5060;received=10.228.146.109;branch=z9hG4bK6f465790;rport=5060
+
+──────────────────────────────────────────────────
+RAW RESPONSE #8
+──────────────────────────────────────────────────
+SIP/2.0 404 Not Found
+Via: SIP/2.0/TCP 216.147.0.1:5060;branch=z9hG4bK7586.433cfc557dbeea06108b2cdceb281ef6.0
+Via: SIP/2.0/UDP 10.228.146.109:5060;received=10.228.146.109;branch=z9hG4bK6f465790;rport=5060
+From: <sip:447441441325@sip.nexmo.com>;tag=as4f8f32ef
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>;tag=ek2pukuutw
+Call-ID: 0a0873876729dbe22feefae7768d9191@sip.nexmo.com
+CSeq: 102 INVITE
+Content-Length: 0
+
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:10.466Z] 
+[2026-08-21T14:30:10.748Z]     ACK  Call-ID=0a0873876729dbe22feefae7768d9191@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-21T14:30:10.757Z] 
+[2026-08-21T14:30:12.323Z] >>> INVITE #9 from 127.0.0.1:60744
+[2026-08-21T14:30:12.353Z]     Call-ID  : 0ae12c1229361e5000518bc441d1350d@sip.nexmo.com
+[2026-08-21T14:30:12.378Z]     From     : <sip:447441441325@sip.nexmo.com>;tag=as0b0e1610
+[2026-08-21T14:30:12.395Z]     To       : <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+[2026-08-21T14:30:12.404Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #9
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.2:5060;transport=tcp;r2=on;lr=on;ftag=as0b0e1610;nat=yes>
+Record-Route: <sip:216.147.0.2;r2=on;lr=on;ftag=as0b0e1610;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK58ee.b9c0c44ec6c0d1a27abd2161a22971b7.0
+Via: SIP/2.0/UDP 10.228.145.218:5060;received=10.228.145.218;branch=z9hG4bK74b5c2a4;rport=5060
+Max-Forwards: 69
+From: <sip:447441441325@sip.nexmo.com>;tag=as0b0e1610
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+Contact: <sip:447441441325@10.228.145.218:5060;alias=10.228.145.218~5060~1>
+Call-ID: 0ae12c1229361e5000518bc441d1350d@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-145218 prd
+Date: Fri, 21 Aug 2026 14:30:12 GMT
+P-Asserted-Identity: "447441441325" <sip:447441441325@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 370
+P-Nexmo-UUID: 534358bae9918625f1191fa5ad67e6a0
+
+v=0
+o=Nexmo 1865029104 1865029104 IN IP4 10.228.145.218
+s=Nexmo
+c=IN IP4 216.147.0.210
+t=0 0
+m=audio 12688 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:12.424Z] <<< SENT 404 Not Found → 127.0.0.1:60744
+[2026-08-21T14:30:12.429Z]     Sent Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK58ee.b9c0c44ec6c0d1a27abd2161a22971b7.0
+[2026-08-21T14:30:12.432Z]     Sent Via: SIP/2.0/UDP 10.228.145.218:5060;received=10.228.145.218;branch=z9hG4bK74b5c2a4;rport=5060
+
+──────────────────────────────────────────────────
+RAW RESPONSE #9
+──────────────────────────────────────────────────
+SIP/2.0 404 Not Found
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK58ee.b9c0c44ec6c0d1a27abd2161a22971b7.0
+Via: SIP/2.0/UDP 10.228.145.218:5060;received=10.228.145.218;branch=z9hG4bK74b5c2a4;rport=5060
+From: <sip:447441441325@sip.nexmo.com>;tag=as0b0e1610
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>;tag=o9ljpxthzz
+Call-ID: 0ae12c1229361e5000518bc441d1350d@sip.nexmo.com
+CSeq: 102 INVITE
+Content-Length: 0
+
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:12.437Z] 
+[2026-08-21T14:30:12.714Z]     ACK  Call-ID=0ae12c1229361e5000518bc441d1350d@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-21T14:30:12.723Z] 
+[2026-08-21T14:30:13.525Z] >>> INVITE #10 from 127.0.0.1:60744
+[2026-08-21T14:30:13.559Z]     Call-ID  : 12ab2dc9579e77313e386510088b503e@sip.nexmo.com
+[2026-08-21T14:30:13.569Z]     From     : <sip:447441441325@sip.nexmo.com>;tag=as65b5a60b
+[2026-08-21T14:30:13.574Z]     To       : <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+[2026-08-21T14:30:13.581Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #10
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.2:5060;transport=tcp;r2=on;lr=on;ftag=as65b5a60b;nat=yes>
+Record-Route: <sip:216.147.0.2;r2=on;lr=on;ftag=as65b5a60b;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bKaf2c.38a3896599f55f6a6767edd8128251fe.0
+Via: SIP/2.0/UDP 10.228.144.60:5060;received=10.228.144.60;branch=z9hG4bK356cc3b8;rport=5060
+Max-Forwards: 69
+From: <sip:447441441325@sip.nexmo.com>;tag=as65b5a60b
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+Contact: <sip:447441441325@10.228.144.60:5060;alias=10.228.144.60~5060~1>
+Call-ID: 12ab2dc9579e77313e386510088b503e@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-14460 prd
+Date: Fri, 21 Aug 2026 14:30:13 GMT
+P-Asserted-Identity: "447441441325" <sip:447441441325@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 368
+P-Nexmo-UUID: d26fe29859dd5e2233d22c7ed324167a
+
+v=0
+o=Nexmo 2035456195 2035456195 IN IP4 10.228.144.60
+s=Nexmo
+c=IN IP4 216.147.0.21
+t=0 0
+m=audio 22692 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:13.599Z] <<< SENT 404 Not Found → 127.0.0.1:60744
+[2026-08-21T14:30:13.605Z]     Sent Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bKaf2c.38a3896599f55f6a6767edd8128251fe.0
+[2026-08-21T14:30:13.608Z]     Sent Via: SIP/2.0/UDP 10.228.144.60:5060;received=10.228.144.60;branch=z9hG4bK356cc3b8;rport=5060
+
+──────────────────────────────────────────────────
+RAW RESPONSE #10
+──────────────────────────────────────────────────
+SIP/2.0 404 Not Found
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bKaf2c.38a3896599f55f6a6767edd8128251fe.0
+Via: SIP/2.0/UDP 10.228.144.60:5060;received=10.228.144.60;branch=z9hG4bK356cc3b8;rport=5060
+From: <sip:447441441325@sip.nexmo.com>;tag=as65b5a60b
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>;tag=cc0u9bgrtv
+Call-ID: 12ab2dc9579e77313e386510088b503e@sip.nexmo.com
+CSeq: 102 INVITE
+Content-Length: 0
+
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:13.613Z] 
+[2026-08-21T14:30:13.894Z]     ACK  Call-ID=12ab2dc9579e77313e386510088b503e@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-21T14:30:13.897Z] 
+[2026-08-21T14:30:14.679Z] >>> INVITE #11 from 127.0.0.1:60744
+[2026-08-21T14:30:14.690Z]     Call-ID  : 47f091396811770d45db8bf328984f7e@sip.nexmo.com
+[2026-08-21T14:30:14.697Z]     From     : <sip:447441441325@sip.nexmo.com>;tag=as0318aca9
+[2026-08-21T14:30:14.703Z]     To       : <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+[2026-08-21T14:30:14.711Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #11
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.2:5060;transport=tcp;r2=on;lr=on;ftag=as0318aca9;nat=yes>
+Record-Route: <sip:216.147.0.2;r2=on;lr=on;ftag=as0318aca9;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK81f1.e6fcf24859f673957943afd6414a19fd.0
+Via: SIP/2.0/UDP 10.228.144.226:5060;received=10.228.144.226;branch=z9hG4bK066ec84a;rport=5060
+Max-Forwards: 69
+From: <sip:447441441325@sip.nexmo.com>;tag=as0318aca9
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+Contact: <sip:447441441325@10.228.144.226:5060;alias=10.228.144.226~5060~1>
+Call-ID: 47f091396811770d45db8bf328984f7e@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-144226 prd
+Date: Fri, 21 Aug 2026 14:30:14 GMT
+P-Asserted-Identity: "447441441325" <sip:447441441325@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 368
+P-Nexmo-UUID: b4ef473037fc3e231050a2aa93928943
+
+v=0
+o=Nexmo 796365061 796365061 IN IP4 10.228.144.226
+s=Nexmo
+c=IN IP4 216.147.0.109
+t=0 0
+m=audio 10968 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:14.724Z] <<< SENT 404 Not Found → 127.0.0.1:60744
+[2026-08-21T14:30:14.730Z]     Sent Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK81f1.e6fcf24859f673957943afd6414a19fd.0
+[2026-08-21T14:30:14.738Z]     Sent Via: SIP/2.0/UDP 10.228.144.226:5060;received=10.228.144.226;branch=z9hG4bK066ec84a;rport=5060
+
+──────────────────────────────────────────────────
+RAW RESPONSE #11
+──────────────────────────────────────────────────
+SIP/2.0 404 Not Found
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK81f1.e6fcf24859f673957943afd6414a19fd.0
+Via: SIP/2.0/UDP 10.228.144.226:5060;received=10.228.144.226;branch=z9hG4bK066ec84a;rport=5060
+From: <sip:447441441325@sip.nexmo.com>;tag=as0318aca9
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>;tag=uf7otyercm
+Call-ID: 47f091396811770d45db8bf328984f7e@sip.nexmo.com
+CSeq: 102 INVITE
+Content-Length: 0
+
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:14.742Z] 
+[2026-08-21T14:30:15.016Z]     ACK  Call-ID=47f091396811770d45db8bf328984f7e@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-21T14:30:15.024Z] 
+[2026-08-21T14:30:16.128Z] >>> INVITE #12 from 127.0.0.1:60746
+[2026-08-21T14:30:16.140Z]     Call-ID  : 7bfff9813663d5da610552883f4897be@sip.nexmo.com
+[2026-08-21T14:30:16.150Z]     From     : <sip:447441441325@sip.nexmo.com>;tag=as4005e129
+[2026-08-21T14:30:16.165Z]     To       : <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+[2026-08-21T14:30:16.179Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #12
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.1:5060;transport=tcp;r2=on;lr=on;ftag=as4005e129;nat=yes>
+Record-Route: <sip:216.147.0.1;r2=on;lr=on;ftag=as4005e129;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.1:5060;branch=z9hG4bK4a33.19da261dbb8ebd32c563c3661c744a45.0
+Via: SIP/2.0/UDP 10.228.146.109:5060;received=10.228.146.109;branch=z9hG4bK20a4e805;rport=5060
+Max-Forwards: 69
+From: <sip:447441441325@sip.nexmo.com>;tag=as4005e129
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+Contact: <sip:447441441325@10.228.146.109:5060;alias=10.228.146.109~5060~1>
+Call-ID: 7bfff9813663d5da610552883f4897be@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-146109 prd
+Date: Fri, 21 Aug 2026 14:30:15 GMT
+P-Asserted-Identity: "447441441325" <sip:447441441325@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 368
+P-Nexmo-UUID: 5300409516ab4f0dbc6a3253ab0df448
+
+v=0
+o=Nexmo 400060939 400060939 IN IP4 10.228.146.109
+s=Nexmo
+c=IN IP4 216.147.0.217
+t=0 0
+m=audio 23326 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:16.195Z] <<< SENT 404 Not Found → 127.0.0.1:60746
+[2026-08-21T14:30:16.200Z]     Sent Via: SIP/2.0/TCP 216.147.0.1:5060;branch=z9hG4bK4a33.19da261dbb8ebd32c563c3661c744a45.0
+[2026-08-21T14:30:16.207Z]     Sent Via: SIP/2.0/UDP 10.228.146.109:5060;received=10.228.146.109;branch=z9hG4bK20a4e805;rport=5060
+
+──────────────────────────────────────────────────
+RAW RESPONSE #12
+──────────────────────────────────────────────────
+SIP/2.0 404 Not Found
+Via: SIP/2.0/TCP 216.147.0.1:5060;branch=z9hG4bK4a33.19da261dbb8ebd32c563c3661c744a45.0
+Via: SIP/2.0/UDP 10.228.146.109:5060;received=10.228.146.109;branch=z9hG4bK20a4e805;rport=5060
+From: <sip:447441441325@sip.nexmo.com>;tag=as4005e129
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>;tag=itifz4pr8t
+Call-ID: 7bfff9813663d5da610552883f4897be@sip.nexmo.com
+CSeq: 102 INVITE
+Content-Length: 0
+
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:16.215Z] 
+[2026-08-21T14:30:16.516Z]     ACK  Call-ID=7bfff9813663d5da610552883f4897be@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-21T14:30:16.537Z] 
+[2026-08-21T14:30:17.412Z] >>> INVITE #13 from 127.0.0.1:60744
+[2026-08-21T14:30:17.425Z]     Call-ID  : 4db19fe019e18917407511101f32e612@sip.nexmo.com
+[2026-08-21T14:30:17.443Z]     From     : <sip:447441441325@sip.nexmo.com>;tag=as5a856d3d
+[2026-08-21T14:30:17.454Z]     To       : <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+[2026-08-21T14:30:17.462Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #13
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.2:5060;transport=tcp;r2=on;lr=on;ftag=as5a856d3d;nat=yes>
+Record-Route: <sip:216.147.0.2;r2=on;lr=on;ftag=as5a856d3d;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK1574.84f78d7c5fa9187543591bd7186d609b.0
+Via: SIP/2.0/UDP 10.228.144.226:5060;received=10.228.144.226;branch=z9hG4bK4fc2c4db;rport=5060
+Max-Forwards: 69
+From: <sip:447441441325@sip.nexmo.com>;tag=as5a856d3d
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+Contact: <sip:447441441325@10.228.144.226:5060;alias=10.228.144.226~5060~1>
+Call-ID: 4db19fe019e18917407511101f32e612@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-144226 prd
+Date: Fri, 21 Aug 2026 14:30:17 GMT
+P-Asserted-Identity: "447441441325" <sip:447441441325@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 370
+P-Nexmo-UUID: e1093b54df28079e2f9dea8fe5f23ed6
+
+v=0
+o=Nexmo 2057034129 2057034129 IN IP4 10.228.144.226
+s=Nexmo
+c=IN IP4 216.147.0.109
+t=0 0
+m=audio 22926 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:17.474Z] <<< SENT 404 Not Found → 127.0.0.1:60744
+[2026-08-21T14:30:17.483Z]     Sent Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK1574.84f78d7c5fa9187543591bd7186d609b.0
+[2026-08-21T14:30:17.490Z]     Sent Via: SIP/2.0/UDP 10.228.144.226:5060;received=10.228.144.226;branch=z9hG4bK4fc2c4db;rport=5060
+
+──────────────────────────────────────────────────
+RAW RESPONSE #13
+──────────────────────────────────────────────────
+SIP/2.0 404 Not Found
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK1574.84f78d7c5fa9187543591bd7186d609b.0
+Via: SIP/2.0/UDP 10.228.144.226:5060;received=10.228.144.226;branch=z9hG4bK4fc2c4db;rport=5060
+From: <sip:447441441325@sip.nexmo.com>;tag=as5a856d3d
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>;tag=mwxvlcjk3m
+Call-ID: 4db19fe019e18917407511101f32e612@sip.nexmo.com
+CSeq: 102 INVITE
+Content-Length: 0
+
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:17.501Z] 
+[2026-08-21T14:30:17.885Z]     ACK  Call-ID=4db19fe019e18917407511101f32e612@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-21T14:30:17.902Z] 
+[2026-08-21T14:30:18.884Z] >>> INVITE #14 from 127.0.0.1:60744
+[2026-08-21T14:30:18.885Z]     Call-ID  : 5a9a9bc273dd705261928368525dae5e@sip.nexmo.com
+[2026-08-21T14:30:18.893Z]     From     : <sip:447441441325@sip.nexmo.com>;tag=as5376c486
+[2026-08-21T14:30:18.912Z]     To       : <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+[2026-08-21T14:30:18.924Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #14
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.2:5060;transport=tcp;r2=on;lr=on;ftag=as5376c486;nat=yes>
+Record-Route: <sip:216.147.0.2;r2=on;lr=on;ftag=as5376c486;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bKda15.c165faf0aac8afc70a8a7fd88854e32a.0
+Via: SIP/2.0/UDP 10.228.144.226:5060;received=10.228.144.226;branch=z9hG4bK3487edeb;rport=5060
+Max-Forwards: 69
+From: <sip:447441441325@sip.nexmo.com>;tag=as5376c486
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+Contact: <sip:447441441325@10.228.144.226:5060;alias=10.228.144.226~5060~1>
+Call-ID: 5a9a9bc273dd705261928368525dae5e@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-144226 prd
+Date: Fri, 21 Aug 2026 14:30:18 GMT
+P-Asserted-Identity: "447441441325" <sip:447441441325@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 368
+P-Nexmo-UUID: ffd2b25ed582aa17867258349f0c375c
+
+v=0
+o=Nexmo 480312614 480312614 IN IP4 10.228.144.226
+s=Nexmo
+c=IN IP4 216.147.0.109
+t=0 0
+m=audio 18890 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:18.936Z] <<< SENT 404 Not Found → 127.0.0.1:60744
+[2026-08-21T14:30:18.938Z]     Sent Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bKda15.c165faf0aac8afc70a8a7fd88854e32a.0
+[2026-08-21T14:30:18.941Z]     Sent Via: SIP/2.0/UDP 10.228.144.226:5060;received=10.228.144.226;branch=z9hG4bK3487edeb;rport=5060
+
+──────────────────────────────────────────────────
+RAW RESPONSE #14
+──────────────────────────────────────────────────
+SIP/2.0 404 Not Found
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bKda15.c165faf0aac8afc70a8a7fd88854e32a.0
+Via: SIP/2.0/UDP 10.228.144.226:5060;received=10.228.144.226;branch=z9hG4bK3487edeb;rport=5060
+From: <sip:447441441325@sip.nexmo.com>;tag=as5376c486
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>;tag=xezvbnr53i
+Call-ID: 5a9a9bc273dd705261928368525dae5e@sip.nexmo.com
+CSeq: 102 INVITE
+Content-Length: 0
+
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:18.944Z] 
+[2026-08-21T14:30:19.224Z]     ACK  Call-ID=5a9a9bc273dd705261928368525dae5e@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-21T14:30:19.238Z] 
+[2026-08-21T14:30:19.955Z] >>> INVITE #15 from 127.0.0.1:60744
+[2026-08-21T14:30:19.965Z]     Call-ID  : 7727cb990e58541c48e4686e4a885fe7@sip.nexmo.com
+[2026-08-21T14:30:19.972Z]     From     : <sip:447441441325@sip.nexmo.com>;tag=as74b78705
+[2026-08-21T14:30:19.980Z]     To       : <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+[2026-08-21T14:30:19.986Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #15
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.2:5060;transport=tcp;r2=on;lr=on;ftag=as74b78705;nat=yes>
+Record-Route: <sip:216.147.0.2;r2=on;lr=on;ftag=as74b78705;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK1a59.bf0a7ef2155f7cc52392b3c5d314738d.0
+Via: SIP/2.0/UDP 10.228.144.60:5060;received=10.228.144.60;branch=z9hG4bK4000adda;rport=5060
+Max-Forwards: 69
+From: <sip:447441441325@sip.nexmo.com>;tag=as74b78705
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+Contact: <sip:447441441325@10.228.144.60:5060;alias=10.228.144.60~5060~1>
+Call-ID: 7727cb990e58541c48e4686e4a885fe7@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-14460 prd
+Date: Fri, 21 Aug 2026 14:30:19 GMT
+P-Asserted-Identity: "447441441325" <sip:447441441325@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 368
+P-Nexmo-UUID: 32f2ae945a55a77f768d98643518a4fe
+
+v=0
+o=Nexmo 1955066573 1955066573 IN IP4 10.228.144.60
+s=Nexmo
+c=IN IP4 216.147.0.21
+t=0 0
+m=audio 16454 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:20.000Z] <<< SENT 404 Not Found → 127.0.0.1:60744
+[2026-08-21T14:30:20.008Z]     Sent Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK1a59.bf0a7ef2155f7cc52392b3c5d314738d.0
+[2026-08-21T14:30:20.014Z]     Sent Via: SIP/2.0/UDP 10.228.144.60:5060;received=10.228.144.60;branch=z9hG4bK4000adda;rport=5060
+
+──────────────────────────────────────────────────
+RAW RESPONSE #15
+──────────────────────────────────────────────────
+SIP/2.0 404 Not Found
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK1a59.bf0a7ef2155f7cc52392b3c5d314738d.0
+Via: SIP/2.0/UDP 10.228.144.60:5060;received=10.228.144.60;branch=z9hG4bK4000adda;rport=5060
+From: <sip:447441441325@sip.nexmo.com>;tag=as74b78705
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>;tag=8i10ksr6mc
+Call-ID: 7727cb990e58541c48e4686e4a885fe7@sip.nexmo.com
+CSeq: 102 INVITE
+Content-Length: 0
+
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:20.022Z] 
+[2026-08-21T14:30:20.386Z]     ACK  Call-ID=7727cb990e58541c48e4686e4a885fe7@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-21T14:30:20.400Z] 
+[2026-08-21T14:30:21.084Z] >>> INVITE #16 from 127.0.0.1:60744
+[2026-08-21T14:30:21.093Z]     Call-ID  : 3158054772ca265b17d0bac763f28a1d@sip.nexmo.com
+[2026-08-21T14:30:21.110Z]     From     : <sip:447441441325@sip.nexmo.com>;tag=as58ff69e8
+[2026-08-21T14:30:21.117Z]     To       : <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+[2026-08-21T14:30:21.130Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #16
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.2:5060;transport=tcp;r2=on;lr=on;ftag=as58ff69e8;nat=yes>
+Record-Route: <sip:216.147.0.2;r2=on;lr=on;ftag=as58ff69e8;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK25d2.f7486de7f3e2572139571141e35f6c12.0
+Via: SIP/2.0/UDP 10.228.144.60:5060;received=10.228.144.60;branch=z9hG4bK727879f6;rport=5060
+Max-Forwards: 69
+From: <sip:447441441325@sip.nexmo.com>;tag=as58ff69e8
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+Contact: <sip:447441441325@10.228.144.60:5060;alias=10.228.144.60~5060~1>
+Call-ID: 3158054772ca265b17d0bac763f28a1d@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-14460 prd
+Date: Fri, 21 Aug 2026 14:30:21 GMT
+P-Asserted-Identity: "447441441325" <sip:447441441325@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 368
+P-Nexmo-UUID: e71652f10aba67a7c93ec1517ff4e4e5
+
+v=0
+o=Nexmo 1249495697 1249495697 IN IP4 10.228.144.60
+s=Nexmo
+c=IN IP4 216.147.0.21
+t=0 0
+m=audio 28712 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:21.144Z] <<< SENT 404 Not Found → 127.0.0.1:60744
+[2026-08-21T14:30:21.150Z]     Sent Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK25d2.f7486de7f3e2572139571141e35f6c12.0
+[2026-08-21T14:30:21.155Z]     Sent Via: SIP/2.0/UDP 10.228.144.60:5060;received=10.228.144.60;branch=z9hG4bK727879f6;rport=5060
+
+──────────────────────────────────────────────────
+RAW RESPONSE #16
+──────────────────────────────────────────────────
+SIP/2.0 404 Not Found
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK25d2.f7486de7f3e2572139571141e35f6c12.0
+Via: SIP/2.0/UDP 10.228.144.60:5060;received=10.228.144.60;branch=z9hG4bK727879f6;rport=5060
+From: <sip:447441441325@sip.nexmo.com>;tag=as58ff69e8
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>;tag=gxfyiofytr
+Call-ID: 3158054772ca265b17d0bac763f28a1d@sip.nexmo.com
+CSeq: 102 INVITE
+Content-Length: 0
+
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:21.167Z] 
+[2026-08-21T14:30:21.522Z]     ACK  Call-ID=3158054772ca265b17d0bac763f28a1d@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-21T14:30:21.543Z] 
+[2026-08-21T14:30:22.549Z] >>> INVITE #17 from 127.0.0.1:60744
+[2026-08-21T14:30:22.582Z]     Call-ID  : 66a849a32118e83907973b995706f9de@sip.nexmo.com
+[2026-08-21T14:30:22.603Z]     From     : <sip:447441441325@sip.nexmo.com>;tag=as7fb93004
+[2026-08-21T14:30:22.611Z]     To       : <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+[2026-08-21T14:30:22.617Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #17
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.2:5060;transport=tcp;r2=on;lr=on;ftag=as7fb93004;nat=yes>
+Record-Route: <sip:216.147.0.2;r2=on;lr=on;ftag=as7fb93004;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bKde1d.3c2dd7a06c3b62b2e09567c8b1e76f6a.0
+Via: SIP/2.0/UDP 10.228.145.218:5060;received=10.228.145.218;branch=z9hG4bK0dde8492;rport=5060
+Max-Forwards: 69
+From: <sip:447441441325@sip.nexmo.com>;tag=as7fb93004
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+Contact: <sip:447441441325@10.228.145.218:5060;alias=10.228.145.218~5060~1>
+Call-ID: 66a849a32118e83907973b995706f9de@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-145218 prd
+Date: Fri, 21 Aug 2026 14:30:22 GMT
+P-Asserted-Identity: "447441441325" <sip:447441441325@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 368
+P-Nexmo-UUID: 71d7acb78445ea1996f2c40633ecbb5e
+
+v=0
+o=Nexmo 479788342 479788342 IN IP4 10.228.145.218
+s=Nexmo
+c=IN IP4 216.147.0.210
+t=0 0
+m=audio 21998 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:22.629Z] <<< SENT 404 Not Found → 127.0.0.1:60744
+[2026-08-21T14:30:22.635Z]     Sent Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bKde1d.3c2dd7a06c3b62b2e09567c8b1e76f6a.0
+[2026-08-21T14:30:22.639Z]     Sent Via: SIP/2.0/UDP 10.228.145.218:5060;received=10.228.145.218;branch=z9hG4bK0dde8492;rport=5060
+
+──────────────────────────────────────────────────
+RAW RESPONSE #17
+──────────────────────────────────────────────────
+SIP/2.0 404 Not Found
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bKde1d.3c2dd7a06c3b62b2e09567c8b1e76f6a.0
+Via: SIP/2.0/UDP 10.228.145.218:5060;received=10.228.145.218;branch=z9hG4bK0dde8492;rport=5060
+From: <sip:447441441325@sip.nexmo.com>;tag=as7fb93004
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>;tag=vujy1ox43h
+Call-ID: 66a849a32118e83907973b995706f9de@sip.nexmo.com
+CSeq: 102 INVITE
+Content-Length: 0
+
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:22.647Z] 
+[2026-08-21T14:30:22.949Z]     ACK  Call-ID=66a849a32118e83907973b995706f9de@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-21T14:30:22.968Z] 
+[2026-08-21T14:30:23.892Z] >>> INVITE #18 from 127.0.0.1:60744
+[2026-08-21T14:30:23.892Z]     Call-ID  : 40cd65f818e29d1d793e4644798e6a14@sip.nexmo.com
+[2026-08-21T14:30:23.900Z]     From     : <sip:447441441325@sip.nexmo.com>;tag=as62877d37
+[2026-08-21T14:30:23.910Z]     To       : <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+[2026-08-21T14:30:23.917Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #18
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.2:5060;transport=tcp;r2=on;lr=on;ftag=as62877d37;nat=yes>
+Record-Route: <sip:216.147.0.2;r2=on;lr=on;ftag=as62877d37;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK8cfd.a665bcdee36cb0225f05a1e15a0f5da6.0
+Via: SIP/2.0/UDP 10.228.145.218:5060;received=10.228.145.218;branch=z9hG4bK318d2c52;rport=5060
+Max-Forwards: 69
+From: <sip:447441441325@sip.nexmo.com>;tag=as62877d37
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+Contact: <sip:447441441325@10.228.145.218:5060;alias=10.228.145.218~5060~1>
+Call-ID: 40cd65f818e29d1d793e4644798e6a14@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-145218 prd
+Date: Fri, 21 Aug 2026 14:30:23 GMT
+P-Asserted-Identity: "447441441325" <sip:447441441325@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 366
+P-Nexmo-UUID: 1b7b0a177f211a94f30e9ecaf4a2e04e
+
+v=0
+o=Nexmo 90767411 90767411 IN IP4 10.228.145.218
+s=Nexmo
+c=IN IP4 216.147.0.210
+t=0 0
+m=audio 27458 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:23.930Z] <<< SENT 404 Not Found → 127.0.0.1:60744
+[2026-08-21T14:30:23.935Z]     Sent Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK8cfd.a665bcdee36cb0225f05a1e15a0f5da6.0
+[2026-08-21T14:30:23.942Z]     Sent Via: SIP/2.0/UDP 10.228.145.218:5060;received=10.228.145.218;branch=z9hG4bK318d2c52;rport=5060
+
+──────────────────────────────────────────────────
+RAW RESPONSE #18
+──────────────────────────────────────────────────
+SIP/2.0 404 Not Found
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK8cfd.a665bcdee36cb0225f05a1e15a0f5da6.0
+Via: SIP/2.0/UDP 10.228.145.218:5060;received=10.228.145.218;branch=z9hG4bK318d2c52;rport=5060
+From: <sip:447441441325@sip.nexmo.com>;tag=as62877d37
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>;tag=2be7t6j6bq
+Call-ID: 40cd65f818e29d1d793e4644798e6a14@sip.nexmo.com
+CSeq: 102 INVITE
+Content-Length: 0
+
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:23.953Z] 
+[2026-08-21T14:30:24.218Z]     ACK  Call-ID=40cd65f818e29d1d793e4644798e6a14@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-21T14:30:24.226Z] 
+[2026-08-21T14:30:24.983Z] >>> INVITE #19 from 127.0.0.1:60744
+[2026-08-21T14:30:24.992Z]     Call-ID  : 1d5e28c8104f38c57977ba717f11656f@sip.nexmo.com
+[2026-08-21T14:30:25.000Z]     From     : <sip:447441441325@sip.nexmo.com>;tag=as64d44692
+[2026-08-21T14:30:25.010Z]     To       : <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+[2026-08-21T14:30:25.017Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #19
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.2:5060;transport=tcp;r2=on;lr=on;ftag=as64d44692;nat=yes>
+Record-Route: <sip:216.147.0.2;r2=on;lr=on;ftag=as64d44692;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK420e.4f4786d61e9010c575dcc14d070f09f8.0
+Via: SIP/2.0/UDP 10.228.145.218:5060;received=10.228.145.218;branch=z9hG4bK38a3efe7;rport=5060
+Max-Forwards: 69
+From: <sip:447441441325@sip.nexmo.com>;tag=as64d44692
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+Contact: <sip:447441441325@10.228.145.218:5060;alias=10.228.145.218~5060~1>
+Call-ID: 1d5e28c8104f38c57977ba717f11656f@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-145218 prd
+Date: Fri, 21 Aug 2026 14:30:24 GMT
+P-Asserted-Identity: "447441441325" <sip:447441441325@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 370
+P-Nexmo-UUID: 6900c7112372eda999cf6484d70451ba
+
+v=0
+o=Nexmo 1036296782 1036296782 IN IP4 10.228.145.218
+s=Nexmo
+c=IN IP4 216.147.0.210
+t=0 0
+m=audio 21768 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:25.030Z] <<< SENT 404 Not Found → 127.0.0.1:60744
+[2026-08-21T14:30:25.037Z]     Sent Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK420e.4f4786d61e9010c575dcc14d070f09f8.0
+[2026-08-21T14:30:25.043Z]     Sent Via: SIP/2.0/UDP 10.228.145.218:5060;received=10.228.145.218;branch=z9hG4bK38a3efe7;rport=5060
+
+──────────────────────────────────────────────────
+RAW RESPONSE #19
+──────────────────────────────────────────────────
+SIP/2.0 404 Not Found
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK420e.4f4786d61e9010c575dcc14d070f09f8.0
+Via: SIP/2.0/UDP 10.228.145.218:5060;received=10.228.145.218;branch=z9hG4bK38a3efe7;rport=5060
+From: <sip:447441441325@sip.nexmo.com>;tag=as64d44692
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>;tag=i9qd4ya0md
+Call-ID: 1d5e28c8104f38c57977ba717f11656f@sip.nexmo.com
+CSeq: 102 INVITE
+Content-Length: 0
+
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:25.059Z] 
+[2026-08-21T14:30:25.423Z]     ACK  Call-ID=1d5e28c8104f38c57977ba717f11656f@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-21T14:30:25.436Z] 
+[2026-08-21T14:30:26.235Z] >>> INVITE #20 from 127.0.0.1:60744
+[2026-08-21T14:30:26.249Z]     Call-ID  : 1be51a6833bb12205c9082f172157083@sip.nexmo.com
+[2026-08-21T14:30:26.257Z]     From     : <sip:447441441325@sip.nexmo.com>;tag=as3c316729
+[2026-08-21T14:30:26.267Z]     To       : <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+[2026-08-21T14:30:26.273Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #20
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.2:5060;transport=tcp;r2=on;lr=on;ftag=as3c316729;nat=yes>
+Record-Route: <sip:216.147.0.2;r2=on;lr=on;ftag=as3c316729;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bKc5.f07f2e772ff7df7402056e1926d56391.0
+Via: SIP/2.0/UDP 10.228.145.218:5060;received=10.228.145.218;branch=z9hG4bK73edf30c;rport=5060
+Max-Forwards: 69
+From: <sip:447441441325@sip.nexmo.com>;tag=as3c316729
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+Contact: <sip:447441441325@10.228.145.218:5060;alias=10.228.145.218~5060~1>
+Call-ID: 1be51a6833bb12205c9082f172157083@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-145218 prd
+Date: Fri, 21 Aug 2026 14:30:26 GMT
+P-Asserted-Identity: "447441441325" <sip:447441441325@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 370
+P-Nexmo-UUID: 4ce865737431d43933055e5947f274b3
+
+v=0
+o=Nexmo 1190046009 1190046009 IN IP4 10.228.145.218
+s=Nexmo
+c=IN IP4 216.147.0.210
+t=0 0
+m=audio 29452 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:26.285Z] <<< SENT 404 Not Found → 127.0.0.1:60744
+[2026-08-21T14:30:26.292Z]     Sent Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bKc5.f07f2e772ff7df7402056e1926d56391.0
+[2026-08-21T14:30:26.298Z]     Sent Via: SIP/2.0/UDP 10.228.145.218:5060;received=10.228.145.218;branch=z9hG4bK73edf30c;rport=5060
+
+──────────────────────────────────────────────────
+RAW RESPONSE #20
+──────────────────────────────────────────────────
+SIP/2.0 404 Not Found
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bKc5.f07f2e772ff7df7402056e1926d56391.0
+Via: SIP/2.0/UDP 10.228.145.218:5060;received=10.228.145.218;branch=z9hG4bK73edf30c;rport=5060
+From: <sip:447441441325@sip.nexmo.com>;tag=as3c316729
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>;tag=elzfd4hzh5
+Call-ID: 1be51a6833bb12205c9082f172157083@sip.nexmo.com
+CSeq: 102 INVITE
+Content-Length: 0
+
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:26.307Z] 
+[2026-08-21T14:30:26.579Z]     ACK  Call-ID=1be51a6833bb12205c9082f172157083@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-21T14:30:26.600Z] 
+[2026-08-21T14:30:27.522Z] >>> INVITE #21 from 127.0.0.1:60744
+[2026-08-21T14:30:27.530Z]     Call-ID  : 2223e2f956c4a69337a220777b640b4b@sip.nexmo.com
+[2026-08-21T14:30:27.540Z]     From     : <sip:447441441325@sip.nexmo.com>;tag=as04a4a8a0
+[2026-08-21T14:30:27.555Z]     To       : <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+[2026-08-21T14:30:27.567Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #21
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.2:5060;transport=tcp;r2=on;lr=on;ftag=as04a4a8a0;nat=yes>
+Record-Route: <sip:216.147.0.2;r2=on;lr=on;ftag=as04a4a8a0;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bKd81c.31bd5a6f778d039096b58fc9157334bc.0
+Via: SIP/2.0/UDP 10.228.144.60:5060;received=10.228.144.60;branch=z9hG4bK47f5e697;rport=5060
+Max-Forwards: 69
+From: <sip:447441441325@sip.nexmo.com>;tag=as04a4a8a0
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+Contact: <sip:447441441325@10.228.144.60:5060;alias=10.228.144.60~5060~1>
+Call-ID: 2223e2f956c4a69337a220777b640b4b@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-14460 prd
+Date: Fri, 21 Aug 2026 14:30:27 GMT
+P-Asserted-Identity: "447441441325" <sip:447441441325@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 368
+P-Nexmo-UUID: 37e68395e915c855ba8f105ab6490378
+
+v=0
+o=Nexmo 1329277971 1329277971 IN IP4 10.228.144.60
+s=Nexmo
+c=IN IP4 216.147.0.21
+t=0 0
+m=audio 21532 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:27.580Z] <<< SENT 404 Not Found → 127.0.0.1:60744
+[2026-08-21T14:30:27.583Z]     Sent Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bKd81c.31bd5a6f778d039096b58fc9157334bc.0
+[2026-08-21T14:30:27.584Z]     Sent Via: SIP/2.0/UDP 10.228.144.60:5060;received=10.228.144.60;branch=z9hG4bK47f5e697;rport=5060
+
+──────────────────────────────────────────────────
+RAW RESPONSE #21
+──────────────────────────────────────────────────
+SIP/2.0 404 Not Found
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bKd81c.31bd5a6f778d039096b58fc9157334bc.0
+Via: SIP/2.0/UDP 10.228.144.60:5060;received=10.228.144.60;branch=z9hG4bK47f5e697;rport=5060
+From: <sip:447441441325@sip.nexmo.com>;tag=as04a4a8a0
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>;tag=lto3vaavfu
+Call-ID: 2223e2f956c4a69337a220777b640b4b@sip.nexmo.com
+CSeq: 102 INVITE
+Content-Length: 0
+
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:27.589Z] 
+[2026-08-21T14:30:27.887Z]     ACK  Call-ID=2223e2f956c4a69337a220777b640b4b@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-21T14:30:27.908Z] 
+[2026-08-21T14:30:29.100Z] >>> INVITE #22 from 127.0.0.1:60746
+[2026-08-21T14:30:29.111Z]     Call-ID  : 26fb86f54c1d7c2b468f22b5273b3778@sip.nexmo.com
+[2026-08-21T14:30:29.132Z]     From     : <sip:447441441325@sip.nexmo.com>;tag=as5f87d688
+[2026-08-21T14:30:29.142Z]     To       : <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+[2026-08-21T14:30:29.145Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #22
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.1:5060;transport=tcp;r2=on;lr=on;ftag=as5f87d688;nat=yes>
+Record-Route: <sip:216.147.0.1;r2=on;lr=on;ftag=as5f87d688;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.1:5060;branch=z9hG4bKc0f7.8c96264b39d8fbdc25dc82e6c059bde2.0
+Via: SIP/2.0/UDP 10.228.146.109:5060;received=10.228.146.109;branch=z9hG4bK4fff722e;rport=5060
+Max-Forwards: 69
+From: <sip:447441441325@sip.nexmo.com>;tag=as5f87d688
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+Contact: <sip:447441441325@10.228.146.109:5060;alias=10.228.146.109~5060~1>
+Call-ID: 26fb86f54c1d7c2b468f22b5273b3778@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-146109 prd
+Date: Fri, 21 Aug 2026 14:30:28 GMT
+P-Asserted-Identity: "447441441325" <sip:447441441325@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 368
+P-Nexmo-UUID: 117e54ccfb0da72253a1d4d42a4b262f
+
+v=0
+o=Nexmo 351085872 351085872 IN IP4 10.228.146.109
+s=Nexmo
+c=IN IP4 216.147.0.217
+t=0 0
+m=audio 12378 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:29.151Z] <<< SENT 404 Not Found → 127.0.0.1:60746
+[2026-08-21T14:30:29.154Z]     Sent Via: SIP/2.0/TCP 216.147.0.1:5060;branch=z9hG4bKc0f7.8c96264b39d8fbdc25dc82e6c059bde2.0
+[2026-08-21T14:30:29.156Z]     Sent Via: SIP/2.0/UDP 10.228.146.109:5060;received=10.228.146.109;branch=z9hG4bK4fff722e;rport=5060
+
+──────────────────────────────────────────────────
+RAW RESPONSE #22
+──────────────────────────────────────────────────
+SIP/2.0 404 Not Found
+Via: SIP/2.0/TCP 216.147.0.1:5060;branch=z9hG4bKc0f7.8c96264b39d8fbdc25dc82e6c059bde2.0
+Via: SIP/2.0/UDP 10.228.146.109:5060;received=10.228.146.109;branch=z9hG4bK4fff722e;rport=5060
+From: <sip:447441441325@sip.nexmo.com>;tag=as5f87d688
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>;tag=ps0boxhzyb
+Call-ID: 26fb86f54c1d7c2b468f22b5273b3778@sip.nexmo.com
+CSeq: 102 INVITE
+Content-Length: 0
+
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:29.164Z] 
+[2026-08-21T14:30:29.441Z]     ACK  Call-ID=26fb86f54c1d7c2b468f22b5273b3778@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-21T14:30:29.443Z] 
+[2026-08-21T14:30:30.237Z] >>> INVITE #23 from 127.0.0.1:60744
+[2026-08-21T14:30:30.250Z]     Call-ID  : 795d5d8e439d03ca2856a9df561e3d5e@sip.nexmo.com
+[2026-08-21T14:30:30.273Z]     From     : <sip:447441441325@sip.nexmo.com>;tag=as55cfa933
+[2026-08-21T14:30:30.279Z]     To       : <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+[2026-08-21T14:30:30.286Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #23
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.2:5060;transport=tcp;r2=on;lr=on;ftag=as55cfa933;nat=yes>
+Record-Route: <sip:216.147.0.2;r2=on;lr=on;ftag=as55cfa933;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bKa878.cb4b1166d82788e76b36fa5cb12e4051.0
+Via: SIP/2.0/UDP 10.228.144.60:5060;received=10.228.144.60;branch=z9hG4bK5ed4f3a3;rport=5060
+Max-Forwards: 69
+From: <sip:447441441325@sip.nexmo.com>;tag=as55cfa933
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+Contact: <sip:447441441325@10.228.144.60:5060;alias=10.228.144.60~5060~1>
+Call-ID: 795d5d8e439d03ca2856a9df561e3d5e@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-14460 prd
+Date: Fri, 21 Aug 2026 14:30:30 GMT
+P-Asserted-Identity: "447441441325" <sip:447441441325@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 368
+P-Nexmo-UUID: 7e2e98bef809fb5f27dc8aa119a8ea83
+
+v=0
+o=Nexmo 2016038293 2016038293 IN IP4 10.228.144.60
+s=Nexmo
+c=IN IP4 216.147.0.21
+t=0 0
+m=audio 24662 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:30.299Z] <<< SENT 404 Not Found → 127.0.0.1:60744
+[2026-08-21T14:30:30.305Z]     Sent Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bKa878.cb4b1166d82788e76b36fa5cb12e4051.0
+[2026-08-21T14:30:30.310Z]     Sent Via: SIP/2.0/UDP 10.228.144.60:5060;received=10.228.144.60;branch=z9hG4bK5ed4f3a3;rport=5060
+
+──────────────────────────────────────────────────
+RAW RESPONSE #23
+──────────────────────────────────────────────────
+SIP/2.0 404 Not Found
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bKa878.cb4b1166d82788e76b36fa5cb12e4051.0
+Via: SIP/2.0/UDP 10.228.144.60:5060;received=10.228.144.60;branch=z9hG4bK5ed4f3a3;rport=5060
+From: <sip:447441441325@sip.nexmo.com>;tag=as55cfa933
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>;tag=xs2g6v26ik
+Call-ID: 795d5d8e439d03ca2856a9df561e3d5e@sip.nexmo.com
+CSeq: 102 INVITE
+Content-Length: 0
+
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:30.320Z] 
+[2026-08-21T14:30:30.590Z]     ACK  Call-ID=795d5d8e439d03ca2856a9df561e3d5e@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-21T14:30:30.611Z] 
+[2026-08-21T14:30:31.518Z] >>> INVITE #24 from 127.0.0.1:60746
+[2026-08-21T14:30:31.532Z]     Call-ID  : 60e8e7733b25aa9c7fad6fd918c05b93@sip.nexmo.com
+[2026-08-21T14:30:31.553Z]     From     : <sip:447441441325@sip.nexmo.com>;tag=as10bc75f4
+[2026-08-21T14:30:31.561Z]     To       : <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+[2026-08-21T14:30:31.568Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #24
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.1:5060;transport=tcp;r2=on;lr=on;ftag=as10bc75f4;nat=yes>
+Record-Route: <sip:216.147.0.1;r2=on;lr=on;ftag=as10bc75f4;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.1:5060;branch=z9hG4bKd43e.9cec1d0e1466c1713efd980044f4d28f.0
+Via: SIP/2.0/UDP 10.228.146.109:5060;received=10.228.146.109;branch=z9hG4bK66312a36;rport=5060
+Max-Forwards: 69
+From: <sip:447441441325@sip.nexmo.com>;tag=as10bc75f4
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+Contact: <sip:447441441325@10.228.146.109:5060;alias=10.228.146.109~5060~1>
+Call-ID: 60e8e7733b25aa9c7fad6fd918c05b93@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-146109 prd
+Date: Fri, 21 Aug 2026 14:30:31 GMT
+P-Asserted-Identity: "447441441325" <sip:447441441325@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 370
+P-Nexmo-UUID: d29593a0cb88de4654de34af06e62641
+
+v=0
+o=Nexmo 1023919029 1023919029 IN IP4 10.228.146.109
+s=Nexmo
+c=IN IP4 216.147.0.217
+t=0 0
+m=audio 23652 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:31.577Z] <<< SENT 404 Not Found → 127.0.0.1:60746
+[2026-08-21T14:30:31.581Z]     Sent Via: SIP/2.0/TCP 216.147.0.1:5060;branch=z9hG4bKd43e.9cec1d0e1466c1713efd980044f4d28f.0
+[2026-08-21T14:30:31.585Z]     Sent Via: SIP/2.0/UDP 10.228.146.109:5060;received=10.228.146.109;branch=z9hG4bK66312a36;rport=5060
+
+──────────────────────────────────────────────────
+RAW RESPONSE #24
+──────────────────────────────────────────────────
+SIP/2.0 404 Not Found
+Via: SIP/2.0/TCP 216.147.0.1:5060;branch=z9hG4bKd43e.9cec1d0e1466c1713efd980044f4d28f.0
+Via: SIP/2.0/UDP 10.228.146.109:5060;received=10.228.146.109;branch=z9hG4bK66312a36;rport=5060
+From: <sip:447441441325@sip.nexmo.com>;tag=as10bc75f4
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>;tag=zqiitqr3el
+Call-ID: 60e8e7733b25aa9c7fad6fd918c05b93@sip.nexmo.com
+CSeq: 102 INVITE
+Content-Length: 0
+
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:31.593Z] 
+[2026-08-21T14:30:31.888Z]     ACK  Call-ID=60e8e7733b25aa9c7fad6fd918c05b93@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-21T14:30:31.900Z] 
+[2026-08-21T14:30:32.586Z] >>> INVITE #25 from 127.0.0.1:60744
+[2026-08-21T14:30:32.598Z]     Call-ID  : 0c10fc30701709b3421320ee78f53556@sip.nexmo.com
+[2026-08-21T14:30:32.620Z]     From     : <sip:447441441325@sip.nexmo.com>;tag=as6ce9fc99
+[2026-08-21T14:30:32.632Z]     To       : <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+[2026-08-21T14:30:32.638Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #25
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.2:5060;transport=tcp;r2=on;lr=on;ftag=as6ce9fc99;nat=yes>
+Record-Route: <sip:216.147.0.2;r2=on;lr=on;ftag=as6ce9fc99;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK42.0f2170533e84e26921c25428d44a648b.0
+Via: SIP/2.0/UDP 10.228.144.226:5060;received=10.228.144.226;branch=z9hG4bK6b1ab3ae;rport=5060
+Max-Forwards: 69
+From: <sip:447441441325@sip.nexmo.com>;tag=as6ce9fc99
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+Contact: <sip:447441441325@10.228.144.226:5060;alias=10.228.144.226~5060~1>
+Call-ID: 0c10fc30701709b3421320ee78f53556@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-144226 prd
+Date: Fri, 21 Aug 2026 14:30:32 GMT
+P-Asserted-Identity: "447441441325" <sip:447441441325@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 366
+P-Nexmo-UUID: 218ab730e6ff1cbab104b52c7006bbcb
+
+v=0
+o=Nexmo 75975462 75975462 IN IP4 10.228.144.226
+s=Nexmo
+c=IN IP4 216.147.0.109
+t=0 0
+m=audio 13906 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:32.650Z] <<< SENT 404 Not Found → 127.0.0.1:60744
+[2026-08-21T14:30:32.656Z]     Sent Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK42.0f2170533e84e26921c25428d44a648b.0
+[2026-08-21T14:30:32.661Z]     Sent Via: SIP/2.0/UDP 10.228.144.226:5060;received=10.228.144.226;branch=z9hG4bK6b1ab3ae;rport=5060
+
+──────────────────────────────────────────────────
+RAW RESPONSE #25
+──────────────────────────────────────────────────
+SIP/2.0 404 Not Found
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK42.0f2170533e84e26921c25428d44a648b.0
+Via: SIP/2.0/UDP 10.228.144.226:5060;received=10.228.144.226;branch=z9hG4bK6b1ab3ae;rport=5060
+From: <sip:447441441325@sip.nexmo.com>;tag=as6ce9fc99
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>;tag=126nr0s6bt
+Call-ID: 0c10fc30701709b3421320ee78f53556@sip.nexmo.com
+CSeq: 102 INVITE
+Content-Length: 0
+
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:32.669Z] 
+[2026-08-21T14:30:32.947Z]     ACK  Call-ID=0c10fc30701709b3421320ee78f53556@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-21T14:30:32.966Z] 
+[2026-08-21T14:30:34.027Z] >>> INVITE #26 from 127.0.0.1:60744
+[2026-08-21T14:30:34.029Z]     Call-ID  : 5f40425373d9dccf6b5c5f897fe549bf@sip.nexmo.com
+[2026-08-21T14:30:34.038Z]     From     : <sip:447441441325@sip.nexmo.com>;tag=as4c9ad6c2
+[2026-08-21T14:30:34.051Z]     To       : <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+[2026-08-21T14:30:34.062Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #26
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.2:5060;transport=tcp;r2=on;lr=on;ftag=as4c9ad6c2;nat=yes>
+Record-Route: <sip:216.147.0.2;r2=on;lr=on;ftag=as4c9ad6c2;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK4d9b.f31f41ffecb5d5bf7687c460348e1f05.0
+Via: SIP/2.0/UDP 10.228.144.60:5060;received=10.228.144.60;branch=z9hG4bK529fc840;rport=5060
+Max-Forwards: 69
+From: <sip:447441441325@sip.nexmo.com>;tag=as4c9ad6c2
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+Contact: <sip:447441441325@10.228.144.60:5060;alias=10.228.144.60~5060~1>
+Call-ID: 5f40425373d9dccf6b5c5f897fe549bf@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-14460 prd
+Date: Fri, 21 Aug 2026 14:30:33 GMT
+P-Asserted-Identity: "447441441325" <sip:447441441325@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 368
+P-Nexmo-UUID: f1ee062bd9a1fbb6c0a1aca31b239b20
+
+v=0
+o=Nexmo 2093881500 2093881500 IN IP4 10.228.144.60
+s=Nexmo
+c=IN IP4 216.147.0.21
+t=0 0
+m=audio 14140 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:34.079Z] <<< SENT 404 Not Found → 127.0.0.1:60744
+[2026-08-21T14:30:34.091Z]     Sent Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK4d9b.f31f41ffecb5d5bf7687c460348e1f05.0
+[2026-08-21T14:30:34.094Z]     Sent Via: SIP/2.0/UDP 10.228.144.60:5060;received=10.228.144.60;branch=z9hG4bK529fc840;rport=5060
+
+──────────────────────────────────────────────────
+RAW RESPONSE #26
+──────────────────────────────────────────────────
+SIP/2.0 404 Not Found
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK4d9b.f31f41ffecb5d5bf7687c460348e1f05.0
+Via: SIP/2.0/UDP 10.228.144.60:5060;received=10.228.144.60;branch=z9hG4bK529fc840;rport=5060
+From: <sip:447441441325@sip.nexmo.com>;tag=as4c9ad6c2
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>;tag=184z8zsaym
+Call-ID: 5f40425373d9dccf6b5c5f897fe549bf@sip.nexmo.com
+CSeq: 102 INVITE
+Content-Length: 0
+
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:34.098Z] 
+[2026-08-21T14:30:34.384Z]     ACK  Call-ID=5f40425373d9dccf6b5c5f897fe549bf@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-21T14:30:34.394Z] 
+[2026-08-21T14:30:35.215Z] >>> INVITE #27 from 127.0.0.1:60744
+[2026-08-21T14:30:35.227Z]     Call-ID  : 7fe9e70574e2520224603c5c20b53b64@sip.nexmo.com
+[2026-08-21T14:30:35.252Z]     From     : <sip:447441441325@sip.nexmo.com>;tag=as2efa83fa
+[2026-08-21T14:30:35.262Z]     To       : <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+[2026-08-21T14:30:35.268Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #27
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.2:5060;transport=tcp;r2=on;lr=on;ftag=as2efa83fa;nat=yes>
+Record-Route: <sip:216.147.0.2;r2=on;lr=on;ftag=as2efa83fa;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bKf811.ba4f94202706280e30e73f1e27442ccb.0
+Via: SIP/2.0/UDP 10.228.144.60:5060;received=10.228.144.60;branch=z9hG4bK625f238a;rport=5060
+Max-Forwards: 69
+From: <sip:447441441325@sip.nexmo.com>;tag=as2efa83fa
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+Contact: <sip:447441441325@10.228.144.60:5060;alias=10.228.144.60~5060~1>
+Call-ID: 7fe9e70574e2520224603c5c20b53b64@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-14460 prd
+Date: Fri, 21 Aug 2026 14:30:35 GMT
+P-Asserted-Identity: "447441441325" <sip:447441441325@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 366
+P-Nexmo-UUID: c9d8dbcea994db2cfbeea52be676bc88
+
+v=0
+o=Nexmo 349650025 349650025 IN IP4 10.228.144.60
+s=Nexmo
+c=IN IP4 216.147.0.21
+t=0 0
+m=audio 24376 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:35.280Z] <<< SENT 404 Not Found → 127.0.0.1:60744
+[2026-08-21T14:30:35.285Z]     Sent Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bKf811.ba4f94202706280e30e73f1e27442ccb.0
+[2026-08-21T14:30:35.289Z]     Sent Via: SIP/2.0/UDP 10.228.144.60:5060;received=10.228.144.60;branch=z9hG4bK625f238a;rport=5060
+
+──────────────────────────────────────────────────
+RAW RESPONSE #27
+──────────────────────────────────────────────────
+SIP/2.0 404 Not Found
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bKf811.ba4f94202706280e30e73f1e27442ccb.0
+Via: SIP/2.0/UDP 10.228.144.60:5060;received=10.228.144.60;branch=z9hG4bK625f238a;rport=5060
+From: <sip:447441441325@sip.nexmo.com>;tag=as2efa83fa
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>;tag=x8a0y5lmom
+Call-ID: 7fe9e70574e2520224603c5c20b53b64@sip.nexmo.com
+CSeq: 102 INVITE
+Content-Length: 0
+
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:35.300Z] 
+[2026-08-21T14:30:35.571Z]     ACK  Call-ID=7fe9e70574e2520224603c5c20b53b64@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-21T14:30:35.589Z] 
+[2026-08-21T14:30:37.080Z] >>> INVITE #28 from 127.0.0.1:60744
+[2026-08-21T14:30:37.092Z]     Call-ID  : 6295024a6f1a74806907bf5358769830@sip.nexmo.com
+[2026-08-21T14:30:37.102Z]     From     : <sip:447441441325@sip.nexmo.com>;tag=as53ccb70e
+[2026-08-21T14:30:37.110Z]     To       : <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+[2026-08-21T14:30:37.118Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #28
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.2:5060;transport=tcp;r2=on;lr=on;ftag=as53ccb70e;nat=yes>
+Record-Route: <sip:216.147.0.2;r2=on;lr=on;ftag=as53ccb70e;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bKfce7.7801f1fff8837d95ab59367456c262a5.0
+Via: SIP/2.0/UDP 10.228.145.218:5060;received=10.228.145.218;branch=z9hG4bK7e8e1ac9;rport=5060
+Max-Forwards: 69
+From: <sip:447441441325@sip.nexmo.com>;tag=as53ccb70e
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+Contact: <sip:447441441325@10.228.145.218:5060;alias=10.228.145.218~5060~1>
+Call-ID: 6295024a6f1a74806907bf5358769830@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-145218 prd
+Date: Fri, 21 Aug 2026 14:30:37 GMT
+P-Asserted-Identity: "447441441325" <sip:447441441325@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 368
+P-Nexmo-UUID: a16b20f25c8bafef9ab5fc440604d128
+
+v=0
+o=Nexmo 578931597 578931597 IN IP4 10.228.145.218
+s=Nexmo
+c=IN IP4 216.147.0.210
+t=0 0
+m=audio 21774 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:37.133Z] <<< SENT 404 Not Found → 127.0.0.1:60744
+[2026-08-21T14:30:37.140Z]     Sent Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bKfce7.7801f1fff8837d95ab59367456c262a5.0
+[2026-08-21T14:30:37.145Z]     Sent Via: SIP/2.0/UDP 10.228.145.218:5060;received=10.228.145.218;branch=z9hG4bK7e8e1ac9;rport=5060
+
+──────────────────────────────────────────────────
+RAW RESPONSE #28
+──────────────────────────────────────────────────
+SIP/2.0 404 Not Found
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bKfce7.7801f1fff8837d95ab59367456c262a5.0
+Via: SIP/2.0/UDP 10.228.145.218:5060;received=10.228.145.218;branch=z9hG4bK7e8e1ac9;rport=5060
+From: <sip:447441441325@sip.nexmo.com>;tag=as53ccb70e
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>;tag=zob6fzvvoj
+Call-ID: 6295024a6f1a74806907bf5358769830@sip.nexmo.com
+CSeq: 102 INVITE
+Content-Length: 0
+
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:37.155Z] 
+[2026-08-21T14:30:37.489Z]     ACK  Call-ID=6295024a6f1a74806907bf5358769830@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-21T14:30:37.515Z] 
+[2026-08-21T14:30:38.428Z] >>> INVITE #29 from 127.0.0.1:60744
+[2026-08-21T14:30:38.439Z]     Call-ID  : 4c76e09510a9dc4d5aaa12bb1e7687e2@sip.nexmo.com
+[2026-08-21T14:30:38.460Z]     From     : <sip:447441441325@sip.nexmo.com>;tag=as57f078cf
+[2026-08-21T14:30:38.463Z]     To       : <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+[2026-08-21T14:30:38.465Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #29
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.2:5060;transport=tcp;r2=on;lr=on;ftag=as57f078cf;nat=yes>
+Record-Route: <sip:216.147.0.2;r2=on;lr=on;ftag=as57f078cf;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK7b3d.3748e5dd0a95bf1feea04ae1db2d6e4b.0
+Via: SIP/2.0/UDP 10.228.144.60:5060;received=10.228.144.60;branch=z9hG4bK6888d91c;rport=5060
+Max-Forwards: 69
+From: <sip:447441441325@sip.nexmo.com>;tag=as57f078cf
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+Contact: <sip:447441441325@10.228.144.60:5060;alias=10.228.144.60~5060~1>
+Call-ID: 4c76e09510a9dc4d5aaa12bb1e7687e2@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-14460 prd
+Date: Fri, 21 Aug 2026 14:30:38 GMT
+P-Asserted-Identity: "447441441325" <sip:447441441325@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 366
+P-Nexmo-UUID: b4d2bafb37f60cfd36ca43dd6cc06b0b
+
+v=0
+o=Nexmo 978938621 978938621 IN IP4 10.228.144.60
+s=Nexmo
+c=IN IP4 216.147.0.21
+t=0 0
+m=audio 19550 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:38.470Z] <<< SENT 404 Not Found → 127.0.0.1:60744
+[2026-08-21T14:30:38.473Z]     Sent Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK7b3d.3748e5dd0a95bf1feea04ae1db2d6e4b.0
+[2026-08-21T14:30:38.475Z]     Sent Via: SIP/2.0/UDP 10.228.144.60:5060;received=10.228.144.60;branch=z9hG4bK6888d91c;rport=5060
+
+──────────────────────────────────────────────────
+RAW RESPONSE #29
+──────────────────────────────────────────────────
+SIP/2.0 404 Not Found
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK7b3d.3748e5dd0a95bf1feea04ae1db2d6e4b.0
+Via: SIP/2.0/UDP 10.228.144.60:5060;received=10.228.144.60;branch=z9hG4bK6888d91c;rport=5060
+From: <sip:447441441325@sip.nexmo.com>;tag=as57f078cf
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>;tag=jzkxxbe1h6
+Call-ID: 4c76e09510a9dc4d5aaa12bb1e7687e2@sip.nexmo.com
+CSeq: 102 INVITE
+Content-Length: 0
+
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:38.479Z] 
+[2026-08-21T14:30:38.882Z]     ACK  Call-ID=4c76e09510a9dc4d5aaa12bb1e7687e2@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-21T14:30:38.906Z] 
+[2026-08-21T14:30:39.712Z] >>> INVITE #30 from 127.0.0.1:60744
+[2026-08-21T14:30:39.722Z]     Call-ID  : 18272d7814c652e57fe232b73f0912dc@sip.nexmo.com
+[2026-08-21T14:30:39.730Z]     From     : <sip:447441441325@sip.nexmo.com>;tag=as76f56a62
+[2026-08-21T14:30:39.738Z]     To       : <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+[2026-08-21T14:30:39.748Z]     CSeq     : 102 INVITE
+
+──────────────────────────────────────────────────
+RAW INVITE #30
+──────────────────────────────────────────────────
+INVITE sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp SIP/2.0
+Record-Route: <sip:216.147.0.2:5060;transport=tcp;r2=on;lr=on;ftag=as76f56a62;nat=yes>
+Record-Route: <sip:216.147.0.2;r2=on;lr=on;ftag=as76f56a62;nat=yes>
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK53b9.363e40eeeb8e1ac30049a813db9dde6e.0
+Via: SIP/2.0/UDP 10.228.144.226:5060;received=10.228.144.226;branch=z9hG4bK3b821384;rport=5060
+Max-Forwards: 69
+From: <sip:447441441325@sip.nexmo.com>;tag=as76f56a62
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>
+Contact: <sip:447441441325@10.228.144.226:5060;alias=10.228.144.226~5060~1>
+Call-ID: 18272d7814c652e57fe232b73f0912dc@sip.nexmo.com
+CSeq: 102 INVITE
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: timer
+User-Agent: Nexmo Media euw1-144226 prd
+Date: Fri, 21 Aug 2026 14:30:39 GMT
+P-Asserted-Identity: "447441441325" <sip:447441441325@sip.nexmo.com>
+Content-Type: application/sdp
+Content-Length: 368
+P-Nexmo-UUID: 749ce2e5a6b39720006a1b6f7b48bcff
+
+v=0
+o=Nexmo 666925068 666925068 IN IP4 10.228.144.226
+s=Nexmo
+c=IN IP4 216.147.0.109
+t=0 0
+m=audio 22042 RTP/AVP 8 0 97 18 9 117 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:97 iLBC/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:117 speex/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=maxptime:60
+a=sendrecv
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:39.770Z] <<< SENT 404 Not Found → 127.0.0.1:60744
+[2026-08-21T14:30:39.774Z]     Sent Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK53b9.363e40eeeb8e1ac30049a813db9dde6e.0
+[2026-08-21T14:30:39.779Z]     Sent Via: SIP/2.0/UDP 10.228.144.226:5060;received=10.228.144.226;branch=z9hG4bK3b821384;rport=5060
+
+──────────────────────────────────────────────────
+RAW RESPONSE #30
+──────────────────────────────────────────────────
+SIP/2.0 404 Not Found
+Via: SIP/2.0/TCP 216.147.0.2:5060;branch=z9hG4bK53b9.363e40eeeb8e1ac30049a813db9dde6e.0
+Via: SIP/2.0/UDP 10.228.144.226:5060;received=10.228.144.226;branch=z9hG4bK3b821384;rport=5060
+From: <sip:447441441325@sip.nexmo.com>;tag=as76f56a62
+To: <sip:351923249700@ajoms-2a00-23c5-e3f0-2501-ed69-616a-d7c4-4ea9.run.pinggy-free.link:37423;transport=tcp>;tag=8justsrzwh
+Call-ID: 18272d7814c652e57fe232b73f0912dc@sip.nexmo.com
+CSeq: 102 INVITE
+Content-Length: 0
+
+
+──────────────────────────────────────────────────
+
+[2026-08-21T14:30:39.798Z] 
+[2026-08-21T14:30:40.112Z]     ACK  Call-ID=18272d7814c652e57fe232b73f0912dc@sip.nexmo.com  (Vonage accepted the final response)
+[2026-08-21T14:30:40.122Z] 
+[2026-08-21T14:30:42.663Z] 
+[2026-08-21T14:30:42.666Z] ============================================================
+[2026-08-21T14:30:42.670Z]   Test session ended
+[2026-08-21T14:30:42.674Z]   Total INVITEs received : 30
+[2026-08-21T14:30:42.678Z]   Retries detected       : 0
+[2026-08-21T14:30:42.681Z]   ✓  No retries — expected behaviour for this response code
+[2026-08-21T14:30:42.685Z]   Full log               : /Users/warodriguez/Documents/VONAGE/SIP-SERVER/vonage_sip_tester.log
+[2026-08-21T14:30:42.688Z] ============================================================
