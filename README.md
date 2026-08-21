@@ -15,7 +15,7 @@ ssh -p 443 -R0:localhost:5060 tcp@a.pinggy.io
 ```
 
 Pinggy will give you a URL like this you can use for 60 minutes 
-``
+```
 tcp://ztjsk-2a00-23c5-e3f0-2501-c42-b3e2-8d7c-d43c.run.pinggy- free.link:38107   
 ```
 
